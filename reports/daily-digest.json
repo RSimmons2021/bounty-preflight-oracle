@@ -1,0 +1,503 @@
+{
+  "generated_at": "2026-05-12T22:55:00.809240+00:00",
+  "scan_limit": 20,
+  "selected": [
+    {
+      "scanned_at": "2026-05-12T22:54:18.160728+00:00",
+      "issue": {
+        "repo": "Scottcjn/rustchain-bounties",
+        "number": 1611,
+        "title": "[EASY BOUNTY: 1 RTC] Add emoji reactions to 3+ issues showing support",
+        "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1611",
+        "state": "OPEN",
+        "labels": [
+          "good first issue",
+          "bounty",
+          "easy",
+          "community"
+        ],
+        "assignees": [],
+        "updated_at": "2026-05-12T22:37:32Z"
+      },
+      "repo": {
+        "createdAt": "2026-02-02T04:29:16Z",
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Earn RTC crypto by contributing to the RustChain ecosystem. Bounties from 1-150 RTC. Star, code, write tutorials, find bugs.",
+        "forkCount": 238,
+        "isArchived": false,
+        "isFork": false,
+        "licenseInfo": null,
+        "nameWithOwner": "Scottcjn/rustchain-bounties",
+        "stargazerCount": 147,
+        "updatedAt": "2026-05-12T12:27:26Z",
+        "url": "https://github.com/Scottcjn/rustchain-bounties"
+      },
+      "platform": "Algora",
+      "payout_friction": "clear",
+      "score": 3,
+      "verdict": "watch",
+      "estimated_codex_hours": "3-8",
+      "open_pr_collisions": [],
+      "attempt_count": 78,
+      "linked_pr_mentions": [
+        "#1",
+        "#10",
+        "#100",
+        "#1000",
+        "#1001",
+        "#1002",
+        "#1003",
+        "#1004",
+        "#102",
+        "#105",
+        "#1096",
+        "#1097",
+        "#1099",
+        "#11",
+        "#1100",
+        "#1101",
+        "#1102",
+        "#1103",
+        "#1104",
+        "#1105"
+      ],
+      "positives": [
+        "No assignee on the issue.",
+        "No open PR collision found by issue-number/title search.",
+        "Payout path appears clear via Algora."
+      ],
+      "warnings": [
+        "78 attempt-like comments detected.",
+        "High comment count suggests crowding or stale debate."
+      ],
+      "recommended_next_action": "Watch for maintainer feedback; avoid joining unless existing attempts stall."
+    },
+    {
+      "scanned_at": "2026-05-12T22:54:41.060306+00:00",
+      "issue": {
+        "repo": "Scottcjn/Rustchain",
+        "number": 4785,
+        "title": "[Security] Webhook admin API fails open when admin key is unset",
+        "url": "https://github.com/Scottcjn/Rustchain/issues/4785",
+        "state": "OPEN",
+        "labels": [],
+        "assignees": [],
+        "updated_at": "2026-05-12T22:32:51Z"
+      },
+      "repo": {
+        "createdAt": "2025-04-21T15:12:18Z",
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "DePIN for Vintage Hardware — Proof-of-Antiquity blockchain where old machines outmine new ones. AI-powered hardware fingerprinting, 15+ CPU architectures, Solana bridge (wRTC). $0 VC.",
+        "forkCount": 304,
+        "isArchived": false,
+        "isFork": false,
+        "licenseInfo": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "nickname": ""
+        },
+        "nameWithOwner": "Scottcjn/Rustchain",
+        "stargazerCount": 277,
+        "updatedAt": "2026-05-12T12:29:25Z",
+        "url": "https://github.com/Scottcjn/Rustchain"
+      },
+      "platform": "GitHub/manual",
+      "payout_friction": "unclear",
+      "score": 1,
+      "verdict": "watch",
+      "estimated_codex_hours": "3-8",
+      "open_pr_collisions": [
+        {
+          "number": 4791,
+          "title": "Fail closed for webhook admin API",
+          "url": "https://github.com/Scottcjn/Rustchain/pull/4791",
+          "updated_at": "2026-05-12T22:20:15Z",
+          "state": "open",
+          "author": "SimoneMariaRomeo"
+        },
+        {
+          "number": 4895,
+          "title": "fix: fail closed webhook admin api",
+          "url": "https://github.com/Scottcjn/Rustchain/pull/4895",
+          "updated_at": "2026-05-12T22:39:22Z",
+          "state": "open",
+          "author": "ethever"
+        }
+      ],
+      "attempt_count": 0,
+      "linked_pr_mentions": [
+        "github.com/Scottcjn/Rustchain/pull/4895"
+      ],
+      "positives": [
+        "No assignee on the issue.",
+        "No attempt comments detected.",
+        "Low comment count."
+      ],
+      "warnings": [
+        "2 open PR collision(s) found.",
+        "Payout path needs confirmation: unclear."
+      ],
+      "recommended_next_action": "Skip direct attempt; inspect stale/failing PRs and look for a rescue opportunity instead."
+    },
+    {
+      "scanned_at": "2026-05-12T22:53:56.073983+00:00",
+      "issue": {
+        "repo": "Scottcjn/rustchain-bounties",
+        "number": 2179,
+        "title": "[EASY BOUNTY: 5 RTC] Write a blog post or Dev.to article about any Elyan Labs project",
+        "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2179",
+        "state": "OPEN",
+        "labels": [
+          "bounty"
+        ],
+        "assignees": [],
+        "updated_at": "2026-05-12T22:45:02Z"
+      },
+      "repo": {
+        "createdAt": "2026-02-02T04:29:16Z",
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Earn RTC crypto by contributing to the RustChain ecosystem. Bounties from 1-150 RTC. Star, code, write tutorials, find bugs.",
+        "forkCount": 238,
+        "isArchived": false,
+        "isFork": false,
+        "licenseInfo": null,
+        "nameWithOwner": "Scottcjn/rustchain-bounties",
+        "stargazerCount": 147,
+        "updatedAt": "2026-05-12T12:27:26Z",
+        "url": "https://github.com/Scottcjn/rustchain-bounties"
+      },
+      "platform": "Opire",
+      "payout_friction": "avoid unless account exists",
+      "score": 0,
+      "verdict": "skip",
+      "estimated_codex_hours": "3-8",
+      "open_pr_collisions": [],
+      "attempt_count": 71,
+      "linked_pr_mentions": [
+        "#2",
+        "#2179",
+        "#2180",
+        "#2202",
+        "#2280",
+        "#590",
+        "#987",
+        "github.com/Scottcjn/rustchain-bounties/pull/2202"
+      ],
+      "positives": [
+        "No assignee on the issue.",
+        "No open PR collision found by issue-number/title search."
+      ],
+      "warnings": [
+        "Payout path needs confirmation: avoid unless account exists.",
+        "71 attempt-like comments detected.",
+        "High comment count suggests crowding or stale debate."
+      ],
+      "recommended_next_action": "Watch until payout/start process is confirmed, or use as a free sample report."
+    },
+    {
+      "scanned_at": "2026-05-12T22:54:06.402226+00:00",
+      "issue": {
+        "repo": "Scottcjn/rustchain-bounties",
+        "number": 1102,
+        "title": "[EASY BOUNTY: 3-5 RTC] Find and Report a BoTTube Bug",
+        "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1102",
+        "state": "OPEN",
+        "labels": [
+          "bounty",
+          "easy",
+          "bottube"
+        ],
+        "assignees": [],
+        "updated_at": "2026-05-12T22:44:30Z"
+      },
+      "repo": {
+        "createdAt": "2026-02-02T04:29:16Z",
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Earn RTC crypto by contributing to the RustChain ecosystem. Bounties from 1-150 RTC. Star, code, write tutorials, find bugs.",
+        "forkCount": 238,
+        "isArchived": false,
+        "isFork": false,
+        "licenseInfo": null,
+        "nameWithOwner": "Scottcjn/rustchain-bounties",
+        "stargazerCount": 147,
+        "updatedAt": "2026-05-12T12:27:26Z",
+        "url": "https://github.com/Scottcjn/rustchain-bounties"
+      },
+      "platform": "Opire",
+      "payout_friction": "avoid unless account exists",
+      "score": 0,
+      "verdict": "skip",
+      "estimated_codex_hours": "3-8",
+      "open_pr_collisions": [],
+      "attempt_count": 106,
+      "linked_pr_mentions": [
+        "#1",
+        "#1102",
+        "#2",
+        "#3",
+        "github.com/Scottcjn/bottube/pull/514",
+        "github.com/Scottcjn/rustchain-bounties/pull/1646"
+      ],
+      "positives": [
+        "No assignee on the issue.",
+        "No open PR collision found by issue-number/title search."
+      ],
+      "warnings": [
+        "Payout path needs confirmation: avoid unless account exists.",
+        "106 attempt-like comments detected.",
+        "High comment count suggests crowding or stale debate."
+      ],
+      "recommended_next_action": "Watch until payout/start process is confirmed, or use as a free sample report."
+    },
+    {
+      "scanned_at": "2026-05-12T22:54:48.518267+00:00",
+      "issue": {
+        "repo": "tscircuit/3d-viewer",
+        "number": 93,
+        "title": "Improve 3d model loading to avoid laggy browser",
+        "url": "https://github.com/tscircuit/3d-viewer/issues/93",
+        "state": "OPEN",
+        "labels": [
+          "💎 Bounty"
+        ],
+        "assignees": [],
+        "updated_at": "2026-05-12T22:25:04Z"
+      },
+      "repo": {
+        "createdAt": "2024-06-26T21:19:34Z",
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "3d viewer for printed circuit boards created using tscircuit",
+        "forkCount": 91,
+        "isArchived": false,
+        "isFork": false,
+        "licenseInfo": {
+          "key": "mit",
+          "name": "MIT License",
+          "nickname": ""
+        },
+        "nameWithOwner": "tscircuit/3d-viewer",
+        "stargazerCount": 14,
+        "updatedAt": "2026-04-30T07:07:16Z",
+        "url": "https://github.com/tscircuit/3d-viewer"
+      },
+      "platform": "Algora",
+      "payout_friction": "clear",
+      "score": -1,
+      "verdict": "skip",
+      "estimated_codex_hours": "3-8",
+      "open_pr_collisions": [
+        {
+          "number": 872,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/872",
+          "updated_at": "2026-05-11T20:07:37Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 871,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/871",
+          "updated_at": "2026-05-11T20:03:57Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 870,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/870",
+          "updated_at": "2026-05-11T20:00:48Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 869,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/869",
+          "updated_at": "2026-05-11T19:57:39Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 868,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/868",
+          "updated_at": "2026-05-11T19:55:39Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 867,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/867",
+          "updated_at": "2026-05-11T19:51:59Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 866,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/866",
+          "updated_at": "2026-05-11T19:48:52Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 865,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/865",
+          "updated_at": "2026-05-11T19:45:51Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 864,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/864",
+          "updated_at": "2026-05-11T19:43:36Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 862,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/862",
+          "updated_at": "2026-05-11T19:40:07Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 861,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/861",
+          "updated_at": "2026-05-11T19:36:55Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 860,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/860",
+          "updated_at": "2026-05-11T19:33:58Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 859,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/859",
+          "updated_at": "2026-05-11T19:31:44Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 858,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/858",
+          "updated_at": "2026-05-11T19:28:10Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 857,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/857",
+          "updated_at": "2026-05-11T19:25:02Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 856,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/856",
+          "updated_at": "2026-05-11T19:22:06Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 855,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/855",
+          "updated_at": "2026-05-11T19:19:51Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 854,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/854",
+          "updated_at": "2026-05-11T19:16:17Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 853,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/853",
+          "updated_at": "2026-05-11T19:13:06Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 852,
+          "title": "fix: automated bounty verification 93",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/852",
+          "updated_at": "2026-05-11T19:10:09Z",
+          "state": "open",
+          "author": "toiyeugym19-cmyk"
+        },
+        {
+          "number": 742,
+          "title": "Improve 3d model loading to avoid laggy browser",
+          "url": "https://github.com/tscircuit/3d-viewer/pull/742",
+          "updated_at": "2026-03-19T13:12:56Z",
+          "state": "open",
+          "author": "victorjzq"
+        }
+      ],
+      "attempt_count": 17,
+      "linked_pr_mentions": [
+        "#663",
+        "#678",
+        "#683",
+        "#742",
+        "#766",
+        "#774",
+        "#775",
+        "#776",
+        "#777",
+        "#778",
+        "#863",
+        "#873",
+        "#874",
+        "#875",
+        "#876",
+        "#878",
+        "#879",
+        "#880",
+        "#881",
+        "#882"
+      ],
+      "positives": [
+        "No assignee on the issue.",
+        "Payout path appears clear via Algora."
+      ],
+      "warnings": [
+        "21 open PR collision(s) found.",
+        "17 attempt-like comments detected."
+      ],
+      "recommended_next_action": "Skip direct attempt; inspect stale/failing PRs and look for a rescue opportunity instead."
+    }
+  ],
+  "errors": []
+}

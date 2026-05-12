@@ -1,14 +1,76 @@
 [
   {
-    "repo": "SCIBASE-AI/SCIBASE.AI",
-    "number": 15,
-    "title": "Community & User Reputation System",
-    "url": "https://github.com/SCIBASE-AI/SCIBASE.AI/issues/15",
-    "comments": 5,
-    "labels": [],
+    "repo": "spaceandtimefdn/sxt-proof-of-sql",
+    "number": 560,
+    "title": "test: improve test coverage",
+    "url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
+    "comments": 66,
+    "labels": [
+      "💎 Bounty"
+    ],
     "assignees": [],
-    "updated_at": "2026-05-12T22:45:34Z",
-    "body_excerpt": "## Community & Reputation System\n\n### Overview\nA thriving scientific ecosystem isn't just about tools — it's about people. The platform’s community and reputation layer creates an incentive structure that rewards transparency, collaboration, and high-quality contributions. By surfacing meaningful metrics and enabling peer validation, this system transforms the platform from a tool into a network — where trust, credit, and discovery grow organically.\n\n---\n\n### Core Requirements\n\n#### 1. Peer Revi"
+    "updated_at": "2026-05-12T22:52:14Z",
+    "body_excerpt": "# Background and Motivation\n\nCurrently, the repo has 2292 uncovered lines of code. We should have 100% test coverage.\n\nNote: this can/should be broken down into smaller PRs that each cover something different. Multiple contributors can work on it in parallel.\n\n# Changes Required\n\n- [ ] Add test coverage for uncovered code. This could mean removing dead code or adding annotations so that lines are not included in the coverage report.\n    - NOTE: 100% test coverage does _NOT_ mean tests are good. "
+  },
+  {
+    "repo": "Scottcjn/rustchain-bounties",
+    "number": 71,
+    "title": "[BOUNTY] Ongoing Bug Bounty Program — Find Bugs, Earn RTC (200 RTC Pool)",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
+    "comments": 157,
+    "labels": [
+      "bug",
+      "bounty",
+      "open"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T22:52:12Z",
+    "body_excerpt": "## Ongoing Bug Bounty Program\n\n**Pool: 750 RTC (ongoing, replenished as needed)**\n\n### Severity & Rewards\n| Severity | Description | Reward |\n|----------|-------------|--------|\n| **Critical** | Fund theft, consensus bypass, RCE | 100-200 RTC |\n| **High** | Data leak, auth bypass, significant logic error | 50-100 RTC |\n| **Medium** | DoS, info disclosure, moderate bugs | 15-50 RTC |\n| **Low** | UI bugs, minor leaks, doc errors | 5-15 RTC |\n\n### In-Scope\n- RustChain node software, attestation & f"
+  },
+  {
+    "repo": "Scottcjn/rustchain-bounties",
+    "number": 73,
+    "title": "[BOUNTY] Code Review Bounty Program — Review PRs, Earn RTC (100 RTC Pool)",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/73",
+    "comments": 1617,
+    "labels": [
+      "bounty",
+      "open"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T22:50:55Z",
+    "body_excerpt": "## Code Review Bounty Program\n\n**Pool: 200 RTC (ongoing)**\n\n### Reward Structure\n| Review Quality | Reward per PR |\n|---------------|---------------|\n| **Thorough** — Line-by-line with actionable feedback | 10-15 RTC |\n| **Standard** — Functional review with useful comments | 5-10 RTC |\n| **Security-focused** — Identifies vulnerabilities | 15-25 RTC |\n\n### Eligible Repositories\n- Scottcjn/Rustchain, Scottcjn/bottube, Scottcjn/rustchain-bounties, Scottcjn/ram-coffers\n\n### How to Claim\n1. Review a"
+  },
+  {
+    "repo": "rohitdash08/FinMind",
+    "number": 130,
+    "title": "Resilient background job retry & monitoring",
+    "url": "https://github.com/rohitdash08/FinMind/issues/130",
+    "comments": 34,
+    "labels": [
+      "enhancement",
+      "bounty",
+      "💎 Bounty",
+      "$250"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T22:48:12Z",
+    "body_excerpt": "Improve reliability of async job execution.\r\n\r\n## Acceptance Criteria\r\n- Production ready implementation\r\n- Includes tests\r\n- Documentation updated"
+  },
+  {
+    "repo": "outerbase/starbasedb",
+    "number": 71,
+    "title": "Improve test coverage with Vitest",
+    "url": "https://github.com/outerbase/starbasedb/issues/71",
+    "comments": 49,
+    "labels": [
+      "enhancement",
+      "💎 Bounty",
+      "💰 Rewarded"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T22:48:05Z",
+    "body_excerpt": "**Is your feature request related to a problem? Please describe.**\nCurrently the test coverage of the project is nearly non-existent. We do have and use Vitest as a dependency in the Starbase project already that future tests should also use. The idea is to begin accumulating test coverage throughout the entire project.\n\nGoal is to bring test coverage up to above 75% with meaningful tests.\n\n**Describe the solution you'd like**\nImportant: Tests should not just be made for line coverage, they shou"
   },
   {
     "repo": "Scottcjn/rustchain-bounties",
@@ -22,44 +84,6 @@
     "assignees": [],
     "updated_at": "2026-05-12T22:45:02Z",
     "body_excerpt": "## Bounty: 5 RTC\n\n### What to do\n1. Write a blog post or Dev.to article (300+ words) about any project:\n   - RustChain (Proof-of-Antiquity, vintage hardware mining)\n   - BoTTube (AI video platform, 1000+ videos)\n   - Beacon (agent-to-agent protocol)\n   - TrashClaw (local tool-use agent)\n   - RAM Coffers (NUMA LLM inference)\n2. Publish it\n3. Comment here with the URL + wallet\n\nEach article = a permanent backlink + SEO juice. 5 RTC per article, no limit."
-  },
-  {
-    "repo": "spaceandtimefdn/sxt-proof-of-sql",
-    "number": 560,
-    "title": "test: improve test coverage",
-    "url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
-    "comments": 64,
-    "labels": [
-      "💎 Bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:45:02Z",
-    "body_excerpt": "# Background and Motivation\n\nCurrently, the repo has 2292 uncovered lines of code. We should have 100% test coverage.\n\nNote: this can/should be broken down into smaller PRs that each cover something different. Multiple contributors can work on it in parallel.\n\n# Changes Required\n\n- [ ] Add test coverage for uncovered code. This could mean removing dead code or adding annotations so that lines are not included in the coverage report.\n    - NOTE: 100% test coverage does _NOT_ mean tests are good. "
-  },
-  {
-    "repo": "Scottcjn/rustchain-bounties",
-    "number": 9185,
-    "title": "[Bounty Claim] PR Reviews — 104 reviews (Bounty #73) — loganoe",
-    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/9185",
-    "comments": 18,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:44:47Z",
-    "body_excerpt": "Consolidated processing issue for my Bounty #73 review claims.\n\nReviewer: @loganoe\nWallet: `RTC4bcf3c8858c01e4fba3524cce96e0305dfe91cfa`\nBounty: #73 code review program\n\nDetailed claim comments already posted on #73:\n- 5-review batch: https://github.com/Scottcjn/rustchain-bounties/issues/73#issuecomment-4434657034\n- 3-review batch: https://github.com/Scottcjn/rustchain-bounties/issues/73#issuecomment-4434686590\n- 4-review batch: https://github.com/Scottcjn/rustchain-bounties/issues/73#issuecomme"
-  },
-  {
-    "repo": "Scottcjn/rustchain-bounties",
-    "number": 73,
-    "title": "[BOUNTY] Code Review Bounty Program — Review PRs, Earn RTC (100 RTC Pool)",
-    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/73",
-    "comments": 1615,
-    "labels": [
-      "bounty",
-      "open"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:44:33Z",
-    "body_excerpt": "## Code Review Bounty Program\n\n**Pool: 200 RTC (ongoing)**\n\n### Reward Structure\n| Review Quality | Reward per PR |\n|---------------|---------------|\n| **Thorough** — Line-by-line with actionable feedback | 10-15 RTC |\n| **Standard** — Functional review with useful comments | 5-10 RTC |\n| **Security-focused** — Identifies vulnerabilities | 15-25 RTC |\n\n### Eligible Repositories\n- Scottcjn/Rustchain, Scottcjn/bottube, Scottcjn/rustchain-bounties, Scottcjn/ram-coffers\n\n### How to Claim\n1. Review a"
   },
   {
     "repo": "claude-builders-bounty/claude-builders-bounty",
@@ -92,21 +116,6 @@
     "body_excerpt": "## Find and Report a BoTTube Bug — 3-5 RTC\n\n**Reward:** 3 RTC (UI bug) / 5 RTC (functional bug)\n**Difficulty:** Easy-Medium\n\n### What to do:\n1. Use [bottube.ai](https://bottube.ai) — browse, search, upload, comment, vote\n2. If something breaks, looks wrong, or behaves unexpectedly — report it\\!\n3. Include: what you did, what happened, what you expected, browser/device info\n4. Screenshots or screen recordings are gold\n\n### Bug report template:\n- **URL:** where it happened\n- **Steps to reproduce:*"
   },
   {
-    "repo": "gwdevhub/GWToolboxpp",
-    "number": 1996,
-    "title": "Map out how many zaishen coins each zaishen quest will reward the player in HM and NM",
-    "url": "https://github.com/gwdevhub/GWToolboxpp/issues/1996",
-    "comments": 1,
-    "labels": [
-      "feature request",
-      "Pending Release",
-      "AI"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:42:35Z",
-    "body_excerpt": "@claude guild wars wiki documents the reward info for every quest in the game, and can be access using the magic Game_Link urls with the quest id. The goal is to map all of the zaishen quest ids to their respective amount of copper zaishen coins in both hm and nm. It should be a map keyed by quest id, containing a simple struct that has 2 uint values for nm and hm.\n\nCheck existing toolbox code for uses of the Game_Link syntax to figure out how to generate the url to scrape the info from the wiki"
-  },
-  {
     "repo": "claude-builders-bounty/claude-builders-bounty",
     "number": 2,
     "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
@@ -119,47 +128,6 @@
     "assignees": [],
     "updated_at": "2026-05-12T22:42:14Z",
     "body_excerpt": "## 💰 Bounty: $75 — powered by [Opire](https://opire.dev)\n\n## Description\nCreate an opinionated, production-ready `CLAUDE.md` for a typical SaaS project\nbuilt with Next.js 15 App Router and SQLite (better-sqlite3 or Turso).\n\n## Acceptance Criteria\n- [ ] Covers: project structure, naming conventions, DB migration rules\n- [ ] Includes: dev commands, patterns to follow, anti-patterns to avoid\n- [ ] Opinionated — not generic. Every rule has a reason.\n- [ ] Usable without modification on a greenfield "
-  },
-  {
-    "repo": "amazon-braket/amazon-braket-sdk-python",
-    "number": 1250,
-    "title": "Interactive circuit visualization with Plotly",
-    "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1250",
-    "comments": 0,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:41:58Z",
-    "body_excerpt": "\n## Description\n\nAdd a new interactive circuit diagram renderer powered by Plotly, as a sibling to the existing Matplotlib renderer. Both are subclasses of `GraphicalCircuitDiagram`. This builds on the work in #1239 by offering an interactive alternative -- hovering over gates displays metadata like fidelities and parameters, and subcircuits can be expanded or collapsed.\n\n## Motivation\n\nThe existing `MatplotlibCircuitDiagram` produces static images, which is great for papers and docs. But for us"
-  },
-  {
-    "repo": "Expensify/App",
-    "number": 88338,
-    "title": "[$250] Expense - The 'Tag no longer valid' violation appears after deleting the only tag",
-    "url": "https://github.com/Expensify/App/issues/88338",
-    "comments": 31,
-    "labels": [
-      "External",
-      "Daily",
-      "Help Wanted",
-      "Bug"
-    ],
-    "assignees": [
-      "Julesssss",
-      "dmkt9"
-    ],
-    "updated_at": "2026-05-12T22:39:57Z",
-    "body_excerpt": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.60-17\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/project"
-  },
-  {
-    "repo": "Scottcjn/rustchain-bounties",
-    "number": 9141,
-    "title": "[Bounty Claim] PR Reviews -- 52 PRs (Bounty #73)",
-    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/9141",
-    "comments": 4,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:37:33Z",
-    "body_excerpt": "## Details\n\nWallet: `AhqbFaPBPLMMiaLDzA9WhQcyvv4hMxiteLhPk3NhG1iG`\n\n### PRs Reviewed: 52 PRs\n\n- Scottcjn/RustChain: PRs #4828, #4800, #4173\n- Scottcjn/BoTTube: PRs #985, #969, #982, #974, #977, #983, #971, #981, #972, #976, #978, #970, #980, #973\n- Scottcjn/grazer-skill: PRs #287, #295, #290, #294, #293, #292, #291, #289\n- Scottcjn/beacon-skill: PRs #833, #832, #831, #829, #828, #835, #836, #837, #838\n- Scottcjn/vintage-voice: PRs #172, #173, #174\n- Scottcjn/elyan-labs-site: PRs #69, #68, #67, #"
   },
   {
     "repo": "Scottcjn/rustchain-bounties",
@@ -176,28 +144,6 @@
     "assignees": [],
     "updated_at": "2026-05-12T22:37:32Z",
     "body_excerpt": "React with thumbs-up/rocket/heart to 3+ open issues. Comment with links. 1 RTC. Tags: community, engagement, bounty, easy, open-source, hacktoberfest"
-  },
-  {
-    "repo": "Scottcjn/rustchain-bounties",
-    "number": 9182,
-    "title": "[Bounty Claim] PR Reviews — 68 PRs (Bounty #73)",
-    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/9182",
-    "comments": 1,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:37:29Z",
-    "body_excerpt": "## Details\n\nWallet: `AhqbFaPBPLMMiaLDzA9WhQcyvv4hMxiteLhPk3NhG1iG`\n\n### PRs Reviewed: 68\n\n- [PR #4663](https://github.com/Scottcjn/RustChain/pull/4663)\n- [PR #4832](https://github.com/Scottcjn/RustChain/pull/4832)\n- [PR #4833](https://github.com/Scottcjn/RustChain/pull/4833)\n- [PR #4834](https://github.com/Scottcjn/RustChain/pull/4834)\n- [PR #4837](https://github.com/Scottcjn/RustChain/pull/4837)\n- [PR #4843](https://github.com/Scottcjn/RustChain/pull/4843)\n- [PR #4858](https://github.com/Scottc"
-  },
-  {
-    "repo": "Scottcjn/rustchain-bounties",
-    "number": 9186,
-    "title": "[Bounty Claim] PR Reviews — 108 PRs (Bounty #73)",
-    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/9186",
-    "comments": 1,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:37:26Z",
-    "body_excerpt": "## Details\n\nWallet: `AhqbFaPBPLMMiaLDzA9WhQcyvv4hMxiteLhPk3NhG1iG`\n\n### PRs Reviewed: 108\n\n**Total: 108 PRs × 0.5 RTC = 54.0 RTC**\n\n### PR List\n- [Scottcjn/rpi-inference PR #167](https://github.com/Scottcjn/rpi-inference/pull/167): Fix README article typo\n- [Scottcjn/elyan-labs-site PR #65](https://github.com/Scottcjn/elyan-labs-site/pull/65): docs: clarify local preview command\n- [Scottcjn/rpi-inference PR #166](https://github.com/Scottcjn/rpi-inference/pull/166): Add test model generator cover"
   },
   {
     "repo": "Scottcjn/rustchain-bounties",
@@ -257,21 +203,6 @@
     "body_excerpt": "## 💰 Bounty: $50 — powered by [Opire](https://opire.dev)\n\n## Description\nCreate a Claude Code skill (`SKILL.md`) or a bash script that automatically generates\na structured `CHANGELOG.md` from a project's git history.\n\n## Acceptance Criteria\n- [ ] Works via `/generate-changelog` command or `bash changelog.sh`\n- [ ] Fetches commits since the last git tag\n- [ ] Auto-categorizes into: `Added` / `Fixed` / `Changed` / `Removed`\n- [ ] Outputs a properly formatted `CHANGELOG.md`\n- [ ] Tested on a real G"
   },
   {
-    "repo": "outerbase/starbasedb",
-    "number": 71,
-    "title": "Improve test coverage with Vitest",
-    "url": "https://github.com/outerbase/starbasedb/issues/71",
-    "comments": 49,
-    "labels": [
-      "enhancement",
-      "💎 Bounty",
-      "💰 Rewarded"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:33:48Z",
-    "body_excerpt": "**Is your feature request related to a problem? Please describe.**\nCurrently the test coverage of the project is nearly non-existent. We do have and use Vitest as a dependency in the Starbase project already that future tests should also use. The idea is to begin accumulating test coverage throughout the entire project.\n\nGoal is to bring test coverage up to above 75% with meaningful tests.\n\n**Describe the solution you'd like**\nImportant: Tests should not just be made for line coverage, they shou"
-  },
-  {
     "repo": "Scottcjn/Rustchain",
     "number": 4785,
     "title": "[Security] Webhook admin API fails open when admin key is unset",
@@ -292,43 +223,6 @@
     "assignees": [],
     "updated_at": "2026-05-12T22:32:31Z",
     "body_excerpt": "## Quantum Visualizer + Daily Quantum Beat — 250,000 sats\n\n> **Claim by replying to this GitHub issue** with your AIBTC agent identity, role, and plan. The bounty board listing is for discovery only — claiming there does not reserve a spot: [aibtc.com/bounty/d3132cf9](https://aibtc.com/bounty/d3132cf9-0813-4534-a98f-0b8ed3fcd261)\n\n---\n\n### What We're Paying For\n\nA living intelligence product that tracks where Bitcoin's most influential developers stand on quantum-resistant cryptography — updated"
-  },
-  {
-    "repo": "Scottcjn/Rustchain",
-    "number": 4878,
-    "title": "Bug: machine_passport_api admin endpoints open when ADMIN_KEY unset",
-    "url": "https://github.com/Scottcjn/Rustchain/issues/4878",
-    "comments": 1,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:29:53Z",
-    "body_excerpt": "## Bug: Admin endpoints bypass authentication when ADMIN_KEY is not configured\n\n**Severity:** HIGH\n\n### Description\nIn `node/machine_passport_api.py`, the admin authentication check at lines 206 and 300:\n\n```python\nif expected_admin_key and not hmac.compare_digest(admin_key, expected_admin_key):\n```\n\nWhen `ADMIN_KEY` environment variable is not set (empty string), `expected_admin_key` evaluates to `False`, and the entire authentication check is **skipped**. This means:\n\n- If an admin forgets to "
-  },
-  {
-    "repo": "Scottcjn/Rustchain",
-    "number": 4890,
-    "title": "Bug: Faucet rejects valid RTC wallet addresses",
-    "url": "https://github.com/Scottcjn/Rustchain/issues/4890",
-    "comments": 1,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:27:03Z",
-    "body_excerpt": "## Bug: Faucet wallet validation only accepts 0x prefix, rejects RTC format\n\n**Severity:** MEDIUM\n\n### Description\nIn `faucet.py` line 316:\n```python\nif not wallet.startswith('0x') or len(wallet) < 10:\n```\n\nThis rejects valid RustChain wallet addresses that use the `RTC` prefix format (e.g., `RTC9d7caca3039130d3b26d41f7343d8f4ef4592360`). \n\nThe faucet is supposed to dispense **testnet RTC tokens**, but it only accepts Ethereum-style `0x` addresses.\n\n### Impact\n- Users with native RTC wallets can"
-  },
-  {
-    "repo": "Scottcjn/rustchain-bounties",
-    "number": 71,
-    "title": "[BOUNTY] Ongoing Bug Bounty Program — Find Bugs, Earn RTC (200 RTC Pool)",
-    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/71",
-    "comments": 155,
-    "labels": [
-      "bug",
-      "bounty",
-      "open"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:25:09Z",
-    "body_excerpt": "## Ongoing Bug Bounty Program\n\n**Pool: 750 RTC (ongoing, replenished as needed)**\n\n### Severity & Rewards\n| Severity | Description | Reward |\n|----------|-------------|--------|\n| **Critical** | Fund theft, consensus bypass, RCE | 100-200 RTC |\n| **High** | Data leak, auth bypass, significant logic error | 50-100 RTC |\n| **Medium** | DoS, info disclosure, moderate bugs | 15-50 RTC |\n| **Low** | UI bugs, minor leaks, doc errors | 5-15 RTC |\n\n### In-Scope\n- RustChain node software, attestation & f"
   },
   {
     "repo": "tscircuit/3d-viewer",
@@ -388,87 +282,6 @@
     "body_excerpt": "Hi, i was able to run docker compose, server runs fine, but when put default credentials on web gui, show an error.\n\nadmin and adminpass\n\nNextJS console show:\n\n  27 |       // Test the credentials by making a request to MediaMTX API\n  28 |       const apiUrl = process.env.NEXT_PUBLIC_MEDIAMTX_API_URL || \"http://localhost:9997\"\n> 29 |       const response = await fetch(`${apiUrl}/v3/config/global/get`, {\n     |                              ^\n  30 |         headers: {\n  31 |           Authorizatio"
   },
   {
-    "repo": "SebastienGosa/librarfree",
-    "number": 100,
-    "title": "[P3] Bug bounty — Huntr ou GitHub Security",
-    "url": "https://github.com/SebastienGosa/librarfree/issues/100",
-    "comments": 7,
-    "labels": [
-      "phase-3",
-      "type:infra"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:22:43Z",
-    "body_excerpt": "Scope : auth, RLS, XSS, CSRF. Rewards €50-500. Hall of Fame security."
-  },
-  {
-    "repo": "maxileith/homebridge-appletv-enhanced",
-    "number": 1304,
-    "title": "TVOS 26.5 (23L5455c) breaks AppleTV Enhanced",
-    "url": "https://github.com/maxileith/homebridge-appletv-enhanced/issues/1304",
-    "comments": 25,
-    "labels": [
-      "bug"
-    ],
-    "assignees": [
-      "maxileith"
-    ],
-    "updated_at": "2026-05-12T22:16:35Z",
-    "body_excerpt": "### Analysis\n\nUpgrading my AppleTV 4K 26.5 (23L5455c) causes the following error in the plugin\nThe plugin is receiving errors that look like you have not set the access level of Speakers & TVs in your home app to \"Everybody\" or \"Anybody On the Same Network\" with no password. Fix this and restart the plugin to continue initializing the Apple TV device. Additionally, make sure to check the TV's HomeKit settings. Enable debug logging to see the original errors.\n\n### Expected Behavior\n\nAppleTV Enhan"
-  },
-  {
-    "repo": "TriliumNext/Trilium",
-    "number": 649,
-    "title": "Open/focus a note from command line / desktop URL handler (Trilium URL protocol)",
-    "url": "https://github.com/TriliumNext/Trilium/issues/649",
-    "comments": 15,
-    "labels": [],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:14:02Z",
-    "body_excerpt": "<!-- Issuehunt Badges -->\n[<img alt=\"Issuehunt badges\" src=\"https://img.shields.io/badge/IssueHunt-%2420%20Funded-%2300A156.svg\" />](https://oss.issuehunt.io/r/TriliumNext/Trilium/issues/649)\n<!-- /Issuehunt Badges -->\n\n\nI would like some mechanism to:\r\n\r\n- Retrieve a URL or ID from the current note displayed in Trilium\r\n- Paste that URL or ID somewhere outside Trilium (for example, in a more advanced task manager)\r\n- Customize my desktop or other apps so that the note ID can be sent back into a"
-  },
-  {
-    "repo": "Expensify/App",
-    "number": 85122,
-    "title": "[$250] Back navigation animation moves in the wrong direction in physical card order flow",
-    "url": "https://github.com/Expensify/App/issues/85122",
-    "comments": 54,
-    "labels": [
-      "External",
-      "Weekly",
-      "Bug"
-    ],
-    "assignees": [
-      "mallenexpensify",
-      "ShridharGoel",
-      "yuvrajangadsingh",
-      "roryabraham"
-    ],
-    "updated_at": "2026-05-12T22:13:12Z",
-    "body_excerpt": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** 9.3.36-6\n**Reproducible in staging?:** Y\n**Reproducible in production?:** Y\n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**\n**Email or phone of affected tester (no customers):**\n"
-  },
-  {
-    "repo": "Expensify/App",
-    "number": 88706,
-    "title": "[Due for payment 2026-05-11] [$250] IOU Report - Members list fails to refresh after adding user from details page",
-    "url": "https://github.com/Expensify/App/issues/88706",
-    "comments": 38,
-    "labels": [
-      "External",
-      "Daily",
-      "Overdue",
-      "Awaiting Payment",
-      "Bug"
-    ],
-    "assignees": [
-      "Valforte",
-      "mallenexpensify",
-      "dukenv0307"
-    ],
-    "updated_at": "2026-05-12T22:10:54Z",
-    "body_excerpt": "If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!\n___\n\n**Version Number:** v9.3.62-1\n**Reproducible in staging?:** Yes\n**Reproducible in production?:** Yes \n**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/project"
-  },
-  {
     "repo": "1712n/dn-institute",
     "number": 277,
     "title": "Contribute to Market Manipulation Wiki",
@@ -487,125 +300,6 @@
     ],
     "updated_at": "2026-05-12T22:04:35Z",
     "body_excerpt": "We invite you to enrich our [Market Health](https://github.com/1712n/dn-institute/tree/main/content/market-health/) wiki by identifying, analyzing, and documenting instances and methods of market manipulation, leveraging data and insights gained from various sources, including our [free API](https://rapidapi.com/DNInstitute/api/crypto-market-health/) that provides basic metrics related to wash trading activities. Comprehensive documentation on each metric is available [here](https://dn.institute"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 14,
-    "title": "[radar] SN open bounty 2026-05-06T16:16",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/14",
-    "comments": 3,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:11Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t513\t1000\t0\t0.2\t48657\t13612\trecent@bitcoin|top@bitcoin|recent@math\tOPEN_BOUNTY,LOW_COMP,FRESH,SIGNAL\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 15,
-    "title": "[radar] SN open bounty 2026-05-06T20:54",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/15",
-    "comments": 1,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:10Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t2463\t1000\t2\t4.8\t48657\t13614\trecent@bitcoin|top@bitcoin\tOPEN_BOUNTY,LOW_COMP,HOT,SIGNAL\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
-  },
-  {
-    "repo": "illbnm/homelab-stack",
-    "number": 504,
-    "title": "[BOUNTY $300] SSO Stack — 统一身份认证",
-    "url": "https://github.com/illbnm/homelab-stack/issues/504",
-    "comments": 14,
-    "labels": [
-      "bounty",
-      "hard"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:10Z",
-    "body_excerpt": "## 赏金金额\n\n**$300 USDT**\n\nHi @illbnm,\n\nI'm very interested in the SSO bounty (#504) and ready to deliver it.\n\nThe detailed proposal with Authentik 2024.8.3 + PostgreSQL 16.4-alpine + Redis 7.4.0-alpine + Traefik ForwardAuth looks excellent. I can implement exactly that:\n\n- Clean `stacks/sso/` folder with full docker-compose\n- `scripts/authentik-setup.sh` (idempotent, --dry-run, safe credential output)\n- Traefik ForwardAuth middleware\n- Ready integrations for Grafana, Gitea, Nextcloud, Outline, Ope"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 16,
-    "title": "[radar] SN open bounty 2026-05-06T21:20",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/16",
-    "comments": 1,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:09Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t2463\t1000\t3\t5.3\t48657\t13614\trecent@bitcoin|top@bitcoin|recent@math\tOPEN_BOUNTY,LOW_COMP,HOT,SIGNAL\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 19,
-    "title": "[radar] SN open bounty 2026-05-07T08:03",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/19",
-    "comments": 1,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:08Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t2484\t1000\t9\t16.0\t48657\t13620\trecent@bitcoin|top@bitcoin|recent@math\tOPEN_BOUNTY,HOT,SELF_POST_OPP\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 17,
-    "title": "[radar] SN open bounty 2026-05-06T23:37",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/17",
-    "comments": 2,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:08Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t2463\t1000\t5\t7.5\t48657\t13617\trecent@bitcoin|top@bitcoin\tOPEN_BOUNTY,LOW_COMP,HOT,SIGNAL,SELF_POST_OPP\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 20,
-    "title": "[radar] SN open bounty 2026-05-07T09:17",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/20",
-    "comments": 1,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:07Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t2484\t1000\t9\t17.2\t48657\t13620\trecent@bitcoin|top@bitcoin\tOPEN_BOUNTY,HOT,SELF_POST_OPP\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
-  },
-  {
-    "repo": "relayhop/sn-monetization-runtime",
-    "number": 21,
-    "title": "[radar] SN open bounty 2026-05-07T12:21",
-    "url": "https://github.com/relayhop/sn-monetization-runtime/issues/21",
-    "comments": 1,
-    "labels": [
-      "radar",
-      "sn",
-      "bounty"
-    ],
-    "assignees": [],
-    "updated_at": "2026-05-12T22:03:06Z",
-    "body_excerpt": "New SN OPEN_BOUNTY detected:\n\n```\n1485327\tmath\t2\t2484\t1000\t10\t20.3\t48657\t13620\trecent@bitcoin|top@bitcoin|recent@math\tOPEN_BOUNTY,HOT,SELF_POST_OPP\tBitcoin Math Puzzle #004: Selfish Mining Pt. 4\n```"
   },
   {
     "repo": "eunseobchoi/NIPS26_A_CV2024",
@@ -700,5 +394,312 @@
     "assignees": [],
     "updated_at": "2026-05-12T21:09:42Z",
     "body_excerpt": "See [#1503](https://github.com/tscircuit/core/pull/1503/files)\n\nCC @0hmX @Abse2001 \n\n<img width=\"854\" height=\"534\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/90cda586-2e2b-4937-a392-0ed549cd2eca\" />\n\n/bounty $75"
+  },
+  {
+    "repo": "tscircuit/schematic-trace-solver",
+    "number": 34,
+    "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
+    "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+    "comments": 77,
+    "labels": [],
+    "assignees": [],
+    "updated_at": "2026-05-12T20:24:04Z",
+    "body_excerpt": "<img width=\"2256\" height=\"1856\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/58f50d14-f3c9-43b2-bdee-1e2e61512441\" />\n\n/bounty $100"
+  },
+  {
+    "repo": "tscircuit/jlcsearch",
+    "number": 92,
+    "title": "Add `is_extended_promotional ` column to components (from data source)",
+    "url": "https://github.com/tscircuit/jlcsearch/issues/92",
+    "comments": 51,
+    "labels": [
+      "💎 Bounty",
+      "$75"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T20:01:44Z",
+    "body_excerpt": "Some parts are \"extended promotional\" which means they act as basic for a limited time, we should have that information available in a filterable column\n\n/bounty $75"
+  },
+  {
+    "repo": "tscircuit/fake-algora",
+    "number": 1,
+    "title": "Bootstrap w/ API for sending payment",
+    "url": "https://github.com/tscircuit/fake-algora/issues/1",
+    "comments": 25,
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T20:01:37Z",
+    "body_excerpt": "/bounty $10"
+  },
+  {
+    "repo": "archestra-ai/archestra",
+    "number": 4468,
+    "title": "Add support for Anthropic Workload Identity Federation (keyless auth)",
+    "url": "https://github.com/archestra-ai/archestra/issues/4468",
+    "comments": 12,
+    "labels": [
+      "💎 Bounty",
+      "$25"
+    ],
+    "assignees": [
+      "Darshan3690"
+    ],
+    "updated_at": "2026-05-12T19:55:00Z",
+    "body_excerpt": "Anthropic now supports [Workload Identity Federation](https://platform.claude.com/docs/en/manage-claude/workload-identity-federation) (keyless auth). We should add support for it.\n\n**Definition of Done**\n- This is configurable via the necessary `ARCHESTRA_<ENV_VAR>` environment variables. Environment variables are clearly documented in `platform-deployment`\n- Add new sub-section under the existing \"Anthropic\" section in \"supported llm providers\" docs page on how to configure this (link to env va"
+  },
+  {
+    "repo": "tscircuit/kicad-component-converter",
+    "number": 114,
+    "title": "Fix the schematic view by also optionally accepting kicad_sym and converting into a schPortArrangement and pinLabels",
+    "url": "https://github.com/tscircuit/kicad-component-converter/issues/114",
+    "comments": 19,
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:53:32Z",
+    "body_excerpt": "/bounty $50"
+  },
+  {
+    "repo": "CapSoftware/Cap",
+    "number": 1540,
+    "title": "Bounty: Deeplinks support + Raycast Extension",
+    "url": "https://github.com/CapSoftware/Cap/issues/1540",
+    "comments": 111,
+    "labels": [
+      "💎 Bounty",
+      "$0"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:20:24Z",
+    "body_excerpt": "Cap needs a Raycast extension. To enable this, deeplinks need to be added to the app for recording, stop recording, pausing (+ resuming), switching microphone, switching camera etc.\n\nThen once deeplinks have been tested, the Raycast extension can be built.\n\nWe already support deeplinks for some stuff, e.g. auth etc. This just needs to be extended.\n\nAdded a $200 bounty for deeplinks support + Raycast extension built."
+  },
+  {
+    "repo": "tscircuit/tscircuit-autorouter",
+    "number": 66,
+    "title": "Implement trace thickness as a parameter",
+    "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/66",
+    "comments": 36,
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:13:18Z",
+    "body_excerpt": "You must have a major contribution to this repo prior to attempting this.\n\nI think this issue is really hard and the bounty is likely to increase over time. There are a lot of implications of trace thickness for high density routing and probability calculation etc.\n\nI'm not even really sure anyone should try to attempt to get trace thickness to go in a single PR, it probably will take a lot of effort.\n\nWe mainly only care about trace thickness multiples (which might help with the implementation)"
+  },
+  {
+    "repo": "gyroflow/gyroflow",
+    "number": 150,
+    "title": "Support lensfun database",
+    "url": "https://github.com/gyroflow/gyroflow/issues/150",
+    "comments": 27,
+    "labels": [
+      "enhancement",
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:11:34Z",
+    "body_excerpt": "https://lensfun.github.io/"
+  },
+  {
+    "repo": "gyroflow/gyroflow",
+    "number": 45,
+    "title": "Optical only stabilization",
+    "url": "https://github.com/gyroflow/gyroflow/issues/45",
+    "comments": 27,
+    "labels": [
+      "enhancement",
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:11:31Z",
+    "body_excerpt": "We can try to use just the optical flow to do the stabilization, without using gyro data"
+  },
+  {
+    "repo": "gyroflow/gyroflow",
+    "number": 742,
+    "title": "Refactor lens profile handling",
+    "url": "https://github.com/gyroflow/gyroflow/issues/742",
+    "comments": 44,
+    "labels": [
+      "enhancement",
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:11:28Z",
+    "body_excerpt": "- [ ] Create a list of known camera brands, models and lenses. To collect the data use the current lens profile database and the lensfun database. Store it as json in `resources` and have it auto-update like lens profiles (also should be in [git](https://github.com/gyroflow/lens_profiles/))\r\n- [ ] Create a list of compatible cameras, lens mounts and sensor sizes, also include crop factor\r\n- [ ] Calibrator should enforce to select correct camera from the list, with the ability to select \"Other\" a"
+  },
+  {
+    "repo": "gyroflow/gyroflow",
+    "number": 384,
+    "title": "Dynamic zooming zooms in too much for lens correction strengths other than 0 and 100%",
+    "url": "https://github.com/gyroflow/gyroflow/issues/384",
+    "comments": 9,
+    "labels": [
+      "bug",
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:01:35Z",
+    "body_excerpt": "### Is there an existing issue for this?\n\n- [X] I have searched the existing issues\n\n### Have you tried the latest build?\n\n- [X] I have tried the latest build\n\n### Gyroflow version\n\n72b8eb6a64d80292d1006277c4d4212865fca072\n\n### What operating system are you using?\n\nWindows 10\n\n### What GPU are you using?\n\n_No response_\n\n### What happened?\n\nWhen selecting lens correction strengths other than 0 and 100% dynamic and fixed zooming zooms in too much. Take for example this clip without motion from the"
+  },
+  {
+    "repo": "arakoodev/EdgeChains",
+    "number": 290,
+    "title": "BOUNTY: integrate AWS Comprehend as a utility to redact data",
+    "url": "https://github.com/arakoodev/EdgeChains/issues/290",
+    "comments": 35,
+    "labels": [
+      "💎 Bounty",
+      "$50"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T18:43:46Z",
+    "body_excerpt": "this bounty is for the javascript sdk only - https://github.com/arakoodev/EdgeChains/tree/ts/JS/edgechains\r\n\r\nlinks:\r\n- https://aws.amazon.com/blogs/machine-learning/how-to-redact-pii-data-in-conversation-transcripts/\r\n- https://aws.amazon.com/blogs/machine-learning/detecting-and-redacting-pii-using-amazon-comprehend/\r\n\r\nthis bounty will marked complete when:\r\n- add new classes that can be **chained** with existing Endpoint classes (as observables) to redact sensitive information in prompts.\r\n- "
+  },
+  {
+    "repo": "spaceandtimefdn/sxt-proof-of-sql",
+    "number": 183,
+    "title": "Add nullable column support",
+    "url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/183",
+    "comments": 33,
+    "labels": [
+      "enhancement",
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T18:28:24Z",
+    "body_excerpt": "# Background and Motivation\nCurrently, we have not implemented support for columns with null values. This is a very useful and ubiquitous primitive for any database engine.\n\n# Changes Required\n- [ ] Support adding a flag (or some other mechanism) to the columns types in order to support nullable columns. Logically, this is the same as adding a new column datatype for each existing datatype.\n- [ ] Support existing operations on nullable columns. (e.g. we should be able to add a nullable bigint to"
+  },
+  {
+    "repo": "tscircuit/circuitjson.com",
+    "number": 79,
+    "title": "Update dependencies (runframe, circuit-json etc.) to latest version and confirm vercel deployment works",
+    "url": "https://github.com/tscircuit/circuitjson.com/issues/79",
+    "comments": 29,
+    "labels": [
+      "💎 Bounty",
+      "💰 Rewarded",
+      "$50"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T17:44:32Z",
+    "body_excerpt": "/bounty $50\n\nI tried to do this in #78 but it took too long to debug why vercel wasn't working\n\nRemove the lockfile and use @tscircuit/plop to create a bunfig.toml with lockfile saving disabled"
+  },
+  {
+    "repo": "tscircuit/pver",
+    "number": 1,
+    "title": "Figure out a way to commit to protected branches",
+    "url": "https://github.com/tscircuit/pver/issues/1",
+    "comments": 15,
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T17:23:20Z",
+    "body_excerpt": "You'll need to install a custom version of pver to one of your own repos, make your main branch protected, then figure out a way to allow pver to be able to commit to the protected branch.\n\n/bounty $20"
+  },
+  {
+    "repo": "Fahad-Dezloper/Crowdify",
+    "number": 27,
+    "title": "Multiple Admin Support",
+    "url": "https://github.com/Fahad-Dezloper/Crowdify/issues/27",
+    "comments": 15,
+    "labels": [
+      "💎 Bounty",
+      "$50"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T17:03:33Z",
+    "body_excerpt": ""
+  },
+  {
+    "repo": "rohitdash08/FinMind",
+    "number": 124,
+    "title": "Login anomaly detection & suspicious activity alerts",
+    "url": "https://github.com/rohitdash08/FinMind/issues/124",
+    "comments": 34,
+    "labels": [
+      "feature",
+      "bounty",
+      "💎 Bounty",
+      "$50"
+    ],
+    "assignees": [
+      "Pranjal6955"
+    ],
+    "updated_at": "2026-05-12T17:03:31Z",
+    "body_excerpt": "Detect unusual login behavior and alert users.\r\n\r\n## Acceptance Criteria\r\n- Production ready implementation\r\n- Includes tests\r\n- Documentation updated"
+  },
+  {
+    "repo": "aqualinkorg/aqualink-app",
+    "number": 1162,
+    "title": "See the map/data for a date in the past",
+    "url": "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+    "comments": 24,
+    "labels": [
+      "💎 Bounty",
+      "$50"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T17:03:26Z",
+    "body_excerpt": "It would be interesting to be able to see the world / Aqualink map and site data at a set date that is not today but in the past.\nFor example, to look back to at coral bleaching events in Australia - https://www.bbc.com/news/articles/cvg3pp52m65o\n\nLet's investigate how hard it would be to adapt the Map component first and then the sites page,\n\n\n\n\n\n"
+  },
+  {
+    "repo": "potpie-ai/potpie",
+    "number": 222,
+    "title": "Support multiple LLMs through Litellm",
+    "url": "https://github.com/potpie-ai/potpie/issues/222",
+    "comments": 17,
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [
+      "dhirenmathur"
+    ],
+    "updated_at": "2026-05-12T16:28:23Z",
+    "body_excerpt": "# Replace LangChain Chat Clients with LiteLLM\r\n\r\n## Objective\r\nReplace all LangChain chat client implementations with LiteLLM while maintaining existing functionality.\r\nAPIs to manage user's LLM choice and keys and ensure that right LLM is selected during processing and agent execution.\r\n\r\n## Requirements\r\n- Keep existing provider service pattern intact\r\n- Support all current LLMs through LiteLLM\r\n- Maintain inference and agent interaction functionality\r\n- Remove CrewAI specialized handling (Thi"
+  },
+  {
+    "repo": "terrastruct/d2",
+    "number": 1578,
+    "title": "`shape: cycle`",
+    "url": "https://github.com/terrastruct/d2/issues/1578",
+    "comments": 15,
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [
+      "loop-index"
+    ],
+    "updated_at": "2026-05-12T16:28:20Z",
+    "body_excerpt": "see: https://github.com/terrastruct/d2/discussions/1330\r\n\r\nStill undecided about name. I may want to reserve \"radial\" for 1 thing in center and N connected. "
+  },
+  {
+    "repo": "tscircuit/circuit-json-to-step",
+    "number": 6,
+    "title": "Determine why rectangles are missing in output",
+    "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+    "comments": 15,
+    "labels": [],
+    "assignees": [],
+    "updated_at": "2026-05-12T16:27:39Z",
+    "body_excerpt": "You have completed the issue when the resistor blocks appear\n\n## Received\n\n<img width=\"2666\" height=\"1480\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/49f77954-6832-4a79-8f66-2e988af5d626\" />\n\n## Actual\n\n<img width=\"750\" height=\"620\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a0a68fd0-c46d-4ac8-a10f-7efee6169eca\" />\n\n/bounty $50\n\n"
+  },
+  {
+    "repo": "tscircuit/schematic-trace-solver",
+    "number": 29,
+    "title": "New Phase To combine same-net trace segments that are close together",
+    "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+    "comments": 73,
+    "labels": [
+      "💎 Bounty",
+      "$100"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T16:27:08Z",
+    "body_excerpt": "I think it's best to implement as a new pipeline phase to split up the logic\n\n/bounty $100\n\n<img width=\"2016\" height=\"782\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0981129c-b6b2-41c3-8b46-2d52c99cb1d8\" />"
   }
 ]

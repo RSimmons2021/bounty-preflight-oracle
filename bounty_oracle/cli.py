@@ -89,6 +89,9 @@ def parse_pull_ref(value: str) -> PullRef:
 
 
 def is_bounty_like(item: dict[str, Any]) -> bool:
+    title = item.get("title", "").lower()
+    if "bounty claim" in title or title.startswith("claim:") or title.startswith("[claim"):
+        return False
     haystack = " ".join(
         [
             item.get("title", ""),
@@ -96,21 +99,22 @@ def is_bounty_like(item: dict[str, Any]) -> bool:
             " ".join(label.get("name", "") for label in item.get("labels", [])),
         ]
     ).lower()
-    bounty_markers = [
-        "bounty",
-        "reward",
+    label_text = " ".join(label.get("name", "") for label in item.get("labels", [])).lower()
+    strong_markers = [
+        "/bounty",
+        "bounty:",
+        "bounty $",
+        "[bounty",
+        "reward:",
         "price:",
         "paid",
         "payout",
         "algora",
         "opire",
-        "usd",
-        "usdc",
-        "usd1",
-        "sats",
-        "rtc",
     ]
-    return any(marker in haystack for marker in bounty_markers) or bool(MONEY_RE.search(haystack))
+    money_with_bounty = bool(MONEY_RE.search(haystack)) and ("bounty" in haystack or "reward" in haystack)
+    bounty_label = "bounty" in label_text or "price:" in label_text
+    return bounty_label or money_with_bounty or any(marker in haystack for marker in strong_markers)
 
 
 def issue_view(ref: IssueRef) -> dict[str, Any]:
@@ -268,6 +272,7 @@ def analyze_issue(ref: IssueRef) -> dict[str, Any]:
     labels = [label["name"] for label in issue.get("labels", [])]
     comments = issue.get("comments", [])
     body_and_comments = "\n".join([issue.get("body") or "", *[c.get("body", "") for c in comments]])
+    title_lower = issue["title"].lower()
     platform, payout_friction = detect_platform(issue)
     attempts = [c for c in comments if ATTEMPT_RE.search(c.get("body", ""))]
     linked_pr_mentions = sorted(set(PR_RE.findall(body_and_comments)))
@@ -312,6 +317,10 @@ def analyze_issue(ref: IssueRef) -> dict[str, Any]:
     if issue.get("state") != "OPEN":
         score -= 10
         warnings.append("Issue is not open.")
+
+    if "bounty claim" in title_lower or title_lower.startswith("claim:") or title_lower.startswith("[claim"):
+        score -= 10
+        warnings.append("This looks like a claim/payment bookkeeping issue, not a fresh bounty.")
 
     if "rewarded" in " ".join(labels).lower() or "paid" in body_and_comments.lower():
         score -= 3
@@ -514,6 +523,62 @@ def collect_candidates(args: argparse.Namespace) -> None:
                 )
 
 
+def render_digest(reports: list[dict[str, Any]], scan_limit: int) -> str:
+    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    lines = [
+        "# Daily Bounty Preflight Digest",
+        "",
+        f"Generated: `{generated}`",
+        f"Candidates analyzed: `{scan_limit}`",
+        "",
+        "This digest ranks GitHub bounty-like issues by attemptability and rescue value.",
+        "",
+    ]
+    for index, report in enumerate(reports, start=1):
+        issue = report["issue"]
+        collision_count = len(report.get("open_pr_collisions", []))
+        lines.extend(
+            [
+                f"## {index}. {issue['repo']}#{issue['number']} - {issue['title']}",
+                f"- Verdict: `{report['verdict']}`",
+                f"- Score: `{report['score']}`",
+                f"- Payout path: `{report['platform']}` ({report['payout_friction']})",
+                f"- Estimated Codex hours: `{report['estimated_codex_hours']}`",
+                f"- Open PR collisions: `{collision_count}`",
+                f"- Attempts detected: `{report['attempt_count']}`",
+                f"- URL: {issue['url']}",
+                f"- Next: {report['recommended_next_action']}",
+                "",
+            ]
+        )
+    if not reports:
+        lines.append("No candidates survived analysis.")
+    return "\n".join(lines)
+
+
+def daily_digest(args: argparse.Namespace) -> None:
+    candidates = candidate_search(args.scan_limit)
+    reports: list[dict[str, Any]] = []
+    errors: list[dict[str, str]] = []
+    for candidate in candidates:
+        try:
+            reports.append(analyze_issue(IssueRef(candidate["repo"], candidate["number"])))
+        except Exception as exc:
+            errors.append({"url": candidate["url"], "error": str(exc)})
+    reports.sort(key=lambda item: item.get("score", -999), reverse=True)
+    selected = reports[: args.limit]
+    write_text(args.out, render_digest(selected, len(candidates)))
+    write_json(
+        args.json_out,
+        {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "scan_limit": args.scan_limit,
+            "selected": selected,
+            "errors": errors,
+        },
+    )
+
+
 def analyze_pr(ref: PullRef) -> dict[str, Any]:
     pr = pr_view(ref)
     checks = pr.get("statusCheckRollup") or []
@@ -673,6 +738,13 @@ def build_parser() -> argparse.ArgumentParser:
     collect.add_argument("--out", default="data/candidates.json")
     collect.add_argument("--csv")
     collect.set_defaults(func=collect_candidates)
+
+    digest = sub.add_parser("daily-digest", help="Analyze live candidates and output a ranked digest.")
+    digest.add_argument("--scan-limit", type=int, default=25)
+    digest.add_argument("--limit", type=int, default=5)
+    digest.add_argument("--out", default="reports/daily-digest.md")
+    digest.add_argument("--json-out", default="reports/daily-digest.json")
+    digest.set_defaults(func=daily_digest)
 
     return parser
 

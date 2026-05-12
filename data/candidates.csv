@@ -1,28 +1,5 @@
 repo,number,title,url,comments,labels,assignees,updated_at,body_excerpt
-SCIBASE-AI/SCIBASE.AI,15,Community & User Reputation System,https://github.com/SCIBASE-AI/SCIBASE.AI/issues/15,5,,,2026-05-12T22:45:34Z,"## Community & Reputation System
-
-### Overview
-A thriving scientific ecosystem isn't just about tools — it's about people. The platform’s community and reputation layer creates an incentive structure that rewards transparency, collaboration, and high-quality contributions. By surfacing meaningful metrics and enabling peer validation, this system transforms the platform from a tool into a network — where trust, credit, and discovery grow organically.
-
----
-
-### Core Requirements
-
-#### 1. Peer Revi"
-Scottcjn/rustchain-bounties,2179,[EASY BOUNTY: 5 RTC] Write a blog post or Dev.to article about any Elyan Labs project,https://github.com/Scottcjn/rustchain-bounties/issues/2179,439,bounty,,2026-05-12T22:45:02Z,"## Bounty: 5 RTC
-
-### What to do
-1. Write a blog post or Dev.to article (300+ words) about any project:
-   - RustChain (Proof-of-Antiquity, vintage hardware mining)
-   - BoTTube (AI video platform, 1000+ videos)
-   - Beacon (agent-to-agent protocol)
-   - TrashClaw (local tool-use agent)
-   - RAM Coffers (NUMA LLM inference)
-2. Publish it
-3. Comment here with the URL + wallet
-
-Each article = a permanent backlink + SEO juice. 5 RTC per article, no limit."
-spaceandtimefdn/sxt-proof-of-sql,560,test: improve test coverage,https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560,64,💎 Bounty,,2026-05-12T22:45:02Z,"# Background and Motivation
+spaceandtimefdn/sxt-proof-of-sql,560,test: improve test coverage,https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560,66,💎 Bounty,,2026-05-12T22:52:14Z,"# Background and Motivation
 
 Currently, the repo has 2292 uncovered lines of code. We should have 100% test coverage.
 
@@ -32,17 +9,21 @@ Note: this can/should be broken down into smaller PRs that each cover something 
 
 - [ ] Add test coverage for uncovered code. This could mean removing dead code or adding annotations so that lines are not included in the coverage report.
     - NOTE: 100% test coverage does _NOT_ mean tests are good. "
-Scottcjn/rustchain-bounties,9185,[Bounty Claim] PR Reviews — 104 reviews (Bounty #73) — loganoe,https://github.com/Scottcjn/rustchain-bounties/issues/9185,18,,,2026-05-12T22:44:47Z,"Consolidated processing issue for my Bounty #73 review claims.
+Scottcjn/rustchain-bounties,71,"[BOUNTY] Ongoing Bug Bounty Program — Find Bugs, Earn RTC (200 RTC Pool)",https://github.com/Scottcjn/rustchain-bounties/issues/71,157,bug;bounty;open,,2026-05-12T22:52:12Z,"## Ongoing Bug Bounty Program
 
-Reviewer: @loganoe
-Wallet: `RTC4bcf3c8858c01e4fba3524cce96e0305dfe91cfa`
-Bounty: #73 code review program
+**Pool: 750 RTC (ongoing, replenished as needed)**
 
-Detailed claim comments already posted on #73:
-- 5-review batch: https://github.com/Scottcjn/rustchain-bounties/issues/73#issuecomment-4434657034
-- 3-review batch: https://github.com/Scottcjn/rustchain-bounties/issues/73#issuecomment-4434686590
-- 4-review batch: https://github.com/Scottcjn/rustchain-bounties/issues/73#issuecomme"
-Scottcjn/rustchain-bounties,73,"[BOUNTY] Code Review Bounty Program — Review PRs, Earn RTC (100 RTC Pool)",https://github.com/Scottcjn/rustchain-bounties/issues/73,1615,bounty;open,,2026-05-12T22:44:33Z,"## Code Review Bounty Program
+### Severity & Rewards
+| Severity | Description | Reward |
+|----------|-------------|--------|
+| **Critical** | Fund theft, consensus bypass, RCE | 100-200 RTC |
+| **High** | Data leak, auth bypass, significant logic error | 50-100 RTC |
+| **Medium** | DoS, info disclosure, moderate bugs | 15-50 RTC |
+| **Low** | UI bugs, minor leaks, doc errors | 5-15 RTC |
+
+### In-Scope
+- RustChain node software, attestation & f"
+Scottcjn/rustchain-bounties,73,"[BOUNTY] Code Review Bounty Program — Review PRs, Earn RTC (100 RTC Pool)",https://github.com/Scottcjn/rustchain-bounties/issues/73,1617,bounty;open,,2026-05-12T22:50:55Z,"## Code Review Bounty Program
 
 **Pool: 200 RTC (ongoing)**
 
@@ -58,6 +39,32 @@ Scottcjn/rustchain-bounties,73,"[BOUNTY] Code Review Bounty Program — Review P
 
 ### How to Claim
 1. Review a"
+rohitdash08/FinMind,130,Resilient background job retry & monitoring,https://github.com/rohitdash08/FinMind/issues/130,34,enhancement;bounty;💎 Bounty;$250,,2026-05-12T22:48:12Z,"Improve reliability of async job execution.
+
+## Acceptance Criteria
+- Production ready implementation
+- Includes tests
+- Documentation updated"
+outerbase/starbasedb,71,Improve test coverage with Vitest,https://github.com/outerbase/starbasedb/issues/71,49,enhancement;💎 Bounty;💰 Rewarded,,2026-05-12T22:48:05Z,"**Is your feature request related to a problem? Please describe.**
+Currently the test coverage of the project is nearly non-existent. We do have and use Vitest as a dependency in the Starbase project already that future tests should also use. The idea is to begin accumulating test coverage throughout the entire project.
+
+Goal is to bring test coverage up to above 75% with meaningful tests.
+
+**Describe the solution you'd like**
+Important: Tests should not just be made for line coverage, they shou"
+Scottcjn/rustchain-bounties,2179,[EASY BOUNTY: 5 RTC] Write a blog post or Dev.to article about any Elyan Labs project,https://github.com/Scottcjn/rustchain-bounties/issues/2179,439,bounty,,2026-05-12T22:45:02Z,"## Bounty: 5 RTC
+
+### What to do
+1. Write a blog post or Dev.to article (300+ words) about any project:
+   - RustChain (Proof-of-Antiquity, vintage hardware mining)
+   - BoTTube (AI video platform, 1000+ videos)
+   - Beacon (agent-to-agent protocol)
+   - TrashClaw (local tool-use agent)
+   - RAM Coffers (NUMA LLM inference)
+2. Publish it
+3. Comment here with the URL + wallet
+
+Each article = a permanent backlink + SEO juice. 5 RTC per article, no limit."
 claude-builders-bounty/claude-builders-bounty,3,[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands,https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3,348,bounty;hook;security,,2026-05-12T22:44:31Z,"## 💰 Bounty: $100 — powered by [Opire](https://opire.dev)
 
 ## Description
@@ -84,9 +91,6 @@ Scottcjn/rustchain-bounties,1102,[EASY BOUNTY: 3-5 RTC] Find and Report a BoTTub
 ### Bug report template:
 - **URL:** where it happened
 - **Steps to reproduce:*"
-gwdevhub/GWToolboxpp,1996,Map out how many zaishen coins each zaishen quest will reward the player in HM and NM,https://github.com/gwdevhub/GWToolboxpp/issues/1996,1,feature request;Pending Release;AI,,2026-05-12T22:42:35Z,"@claude guild wars wiki documents the reward info for every quest in the game, and can be access using the magic Game_Link urls with the quest id. The goal is to map all of the zaishen quest ids to their respective amount of copper zaishen coins in both hm and nm. It should be a map keyed by quest id, containing a simple struct that has 2 uint values for nm and hm.
-
-Check existing toolbox code for uses of the Game_Link syntax to figure out how to generate the url to scrape the info from the wiki"
 claude-builders-bounty/claude-builders-bounty,2,[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project,https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2,240,bounty;template,,2026-05-12T22:42:14Z,"## 💰 Bounty: $75 — powered by [Opire](https://opire.dev)
 
 ## Description
@@ -98,59 +102,7 @@ built with Next.js 15 App Router and SQLite (better-sqlite3 or Turso).
 - [ ] Includes: dev commands, patterns to follow, anti-patterns to avoid
 - [ ] Opinionated — not generic. Every rule has a reason.
 - [ ] Usable without modification on a greenfield "
-amazon-braket/amazon-braket-sdk-python,1250,Interactive circuit visualization with Plotly,https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1250,0,,,2026-05-12T22:41:58Z,"
-## Description
-
-Add a new interactive circuit diagram renderer powered by Plotly, as a sibling to the existing Matplotlib renderer. Both are subclasses of `GraphicalCircuitDiagram`. This builds on the work in #1239 by offering an interactive alternative -- hovering over gates displays metadata like fidelities and parameters, and subcircuits can be expanded or collapsed.
-
-## Motivation
-
-The existing `MatplotlibCircuitDiagram` produces static images, which is great for papers and docs. But for us"
-Expensify/App,88338,[$250] Expense - The 'Tag no longer valid' violation appears after deleting the only tag,https://github.com/Expensify/App/issues/88338,31,External;Daily;Help Wanted;Bug,Julesssss;dmkt9,2026-05-12T22:39:57Z,"If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!
-___
-
-**Version Number:** v9.3.60-17
-**Reproducible in staging?:** Yes
-**Reproducible in production?:** Yes
-**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/project"
-Scottcjn/rustchain-bounties,9141,[Bounty Claim] PR Reviews -- 52 PRs (Bounty #73),https://github.com/Scottcjn/rustchain-bounties/issues/9141,4,,,2026-05-12T22:37:33Z,"## Details
-
-Wallet: `AhqbFaPBPLMMiaLDzA9WhQcyvv4hMxiteLhPk3NhG1iG`
-
-### PRs Reviewed: 52 PRs
-
-- Scottcjn/RustChain: PRs #4828, #4800, #4173
-- Scottcjn/BoTTube: PRs #985, #969, #982, #974, #977, #983, #971, #981, #972, #976, #978, #970, #980, #973
-- Scottcjn/grazer-skill: PRs #287, #295, #290, #294, #293, #292, #291, #289
-- Scottcjn/beacon-skill: PRs #833, #832, #831, #829, #828, #835, #836, #837, #838
-- Scottcjn/vintage-voice: PRs #172, #173, #174
-- Scottcjn/elyan-labs-site: PRs #69, #68, #67, #"
 Scottcjn/rustchain-bounties,1611,[EASY BOUNTY: 1 RTC] Add emoji reactions to 3+ issues showing support,https://github.com/Scottcjn/rustchain-bounties/issues/1611,600,good first issue;bounty;easy;community,,2026-05-12T22:37:32Z,"React with thumbs-up/rocket/heart to 3+ open issues. Comment with links. 1 RTC. Tags: community, engagement, bounty, easy, open-source, hacktoberfest"
-Scottcjn/rustchain-bounties,9182,[Bounty Claim] PR Reviews — 68 PRs (Bounty #73),https://github.com/Scottcjn/rustchain-bounties/issues/9182,1,,,2026-05-12T22:37:29Z,"## Details
-
-Wallet: `AhqbFaPBPLMMiaLDzA9WhQcyvv4hMxiteLhPk3NhG1iG`
-
-### PRs Reviewed: 68
-
-- [PR #4663](https://github.com/Scottcjn/RustChain/pull/4663)
-- [PR #4832](https://github.com/Scottcjn/RustChain/pull/4832)
-- [PR #4833](https://github.com/Scottcjn/RustChain/pull/4833)
-- [PR #4834](https://github.com/Scottcjn/RustChain/pull/4834)
-- [PR #4837](https://github.com/Scottcjn/RustChain/pull/4837)
-- [PR #4843](https://github.com/Scottcjn/RustChain/pull/4843)
-- [PR #4858](https://github.com/Scottc"
-Scottcjn/rustchain-bounties,9186,[Bounty Claim] PR Reviews — 108 PRs (Bounty #73),https://github.com/Scottcjn/rustchain-bounties/issues/9186,1,,,2026-05-12T22:37:26Z,"## Details
-
-Wallet: `AhqbFaPBPLMMiaLDzA9WhQcyvv4hMxiteLhPk3NhG1iG`
-
-### PRs Reviewed: 108
-
-**Total: 108 PRs × 0.5 RTC = 54.0 RTC**
-
-### PR List
-- [Scottcjn/rpi-inference PR #167](https://github.com/Scottcjn/rpi-inference/pull/167): Fix README article typo
-- [Scottcjn/elyan-labs-site PR #65](https://github.com/Scottcjn/elyan-labs-site/pull/65): docs: clarify local preview command
-- [Scottcjn/rpi-inference PR #166](https://github.com/Scottcjn/rpi-inference/pull/166): Add test model generator cover"
 Scottcjn/rustchain-bounties,1105,[EASY BOUNTY: 1 RTC] Watch 20 BoTTube Videos,https://github.com/Scottcjn/rustchain-bounties/issues/1105,142,bounty;easy;bottube,,2026-05-12T22:37:13Z,"## Watch 20 BoTTube Videos — 1 RTC
 
 **Reward:** 1 RTC
@@ -208,13 +160,6 @@ a structured `CHANGELOG.md` from a project's git history.
 - [ ] Auto-categorizes into: `Added` / `Fixed` / `Changed` / `Removed`
 - [ ] Outputs a properly formatted `CHANGELOG.md`
 - [ ] Tested on a real G"
-outerbase/starbasedb,71,Improve test coverage with Vitest,https://github.com/outerbase/starbasedb/issues/71,49,enhancement;💎 Bounty;💰 Rewarded,,2026-05-12T22:33:48Z,"**Is your feature request related to a problem? Please describe.**
-Currently the test coverage of the project is nearly non-existent. We do have and use Vitest as a dependency in the Starbase project already that future tests should also use. The idea is to begin accumulating test coverage throughout the entire project.
-
-Goal is to bring test coverage up to above 75% with meaningful tests.
-
-**Describe the solution you'd like**
-Important: Tests should not just be made for line coverage, they shou"
 Scottcjn/Rustchain,4785,[Security] Webhook admin API fails open when admin key is unset,https://github.com/Scottcjn/Rustchain/issues/4785,1,,,2026-05-12T22:32:51Z,"# Security Report - RustChain
 
 ## 1. Executive Summary
@@ -231,50 +176,6 @@ RustChain publishes a security policy and active public bounty / security issue 
 ### What We're Paying For
 
 A living intelligence product that tracks where Bitcoin's most influential developers stand on quantum-resistant cryptography — updated"
-Scottcjn/Rustchain,4878,Bug: machine_passport_api admin endpoints open when ADMIN_KEY unset,https://github.com/Scottcjn/Rustchain/issues/4878,1,,,2026-05-12T22:29:53Z,"## Bug: Admin endpoints bypass authentication when ADMIN_KEY is not configured
-
-**Severity:** HIGH
-
-### Description
-In `node/machine_passport_api.py`, the admin authentication check at lines 206 and 300:
-
-```python
-if expected_admin_key and not hmac.compare_digest(admin_key, expected_admin_key):
-```
-
-When `ADMIN_KEY` environment variable is not set (empty string), `expected_admin_key` evaluates to `False`, and the entire authentication check is **skipped**. This means:
-
-- If an admin forgets to "
-Scottcjn/Rustchain,4890,Bug: Faucet rejects valid RTC wallet addresses,https://github.com/Scottcjn/Rustchain/issues/4890,1,,,2026-05-12T22:27:03Z,"## Bug: Faucet wallet validation only accepts 0x prefix, rejects RTC format
-
-**Severity:** MEDIUM
-
-### Description
-In `faucet.py` line 316:
-```python
-if not wallet.startswith('0x') or len(wallet) < 10:
-```
-
-This rejects valid RustChain wallet addresses that use the `RTC` prefix format (e.g., `RTC9d7caca3039130d3b26d41f7343d8f4ef4592360`). 
-
-The faucet is supposed to dispense **testnet RTC tokens**, but it only accepts Ethereum-style `0x` addresses.
-
-### Impact
-- Users with native RTC wallets can"
-Scottcjn/rustchain-bounties,71,"[BOUNTY] Ongoing Bug Bounty Program — Find Bugs, Earn RTC (200 RTC Pool)",https://github.com/Scottcjn/rustchain-bounties/issues/71,155,bug;bounty;open,,2026-05-12T22:25:09Z,"## Ongoing Bug Bounty Program
-
-**Pool: 750 RTC (ongoing, replenished as needed)**
-
-### Severity & Rewards
-| Severity | Description | Reward |
-|----------|-------------|--------|
-| **Critical** | Fund theft, consensus bypass, RCE | 100-200 RTC |
-| **High** | Data leak, auth bypass, significant logic error | 50-100 RTC |
-| **Medium** | DoS, info disclosure, moderate bugs | 15-50 RTC |
-| **Low** | UI bugs, minor leaks, doc errors | 5-15 RTC |
-
-### In-Scope
-- RustChain node software, attestation & f"
 tscircuit/3d-viewer,93,Improve 3d model loading to avoid laggy browser,https://github.com/tscircuit/3d-viewer/issues/93,19,💎 Bounty,,2026-05-12T22:25:04Z,"I think it's an issue with the obj loader loading duplicate models (global model cache?)
 
 Example project:
@@ -318,91 +219,7 @@ NextJS console show:
      |                              ^
   30 |         headers: {
   31 |           Authorizatio"
-SebastienGosa/librarfree,100,[P3] Bug bounty — Huntr ou GitHub Security,https://github.com/SebastienGosa/librarfree/issues/100,7,phase-3;type:infra,,2026-05-12T22:22:43Z,"Scope : auth, RLS, XSS, CSRF. Rewards €50-500. Hall of Fame security."
-maxileith/homebridge-appletv-enhanced,1304,TVOS 26.5 (23L5455c) breaks AppleTV Enhanced,https://github.com/maxileith/homebridge-appletv-enhanced/issues/1304,25,bug,maxileith,2026-05-12T22:16:35Z,"### Analysis
-
-Upgrading my AppleTV 4K 26.5 (23L5455c) causes the following error in the plugin
-The plugin is receiving errors that look like you have not set the access level of Speakers & TVs in your home app to ""Everybody"" or ""Anybody On the Same Network"" with no password. Fix this and restart the plugin to continue initializing the Apple TV device. Additionally, make sure to check the TV's HomeKit settings. Enable debug logging to see the original errors.
-
-### Expected Behavior
-
-AppleTV Enhan"
-TriliumNext/Trilium,649,Open/focus a note from command line / desktop URL handler (Trilium URL protocol),https://github.com/TriliumNext/Trilium/issues/649,15,,,2026-05-12T22:14:02Z,"<!-- Issuehunt Badges -->
-[<img alt=""Issuehunt badges"" src=""https://img.shields.io/badge/IssueHunt-%2420%20Funded-%2300A156.svg"" />](https://oss.issuehunt.io/r/TriliumNext/Trilium/issues/649)
-<!-- /Issuehunt Badges -->
-
-
-I would like some mechanism to:
-
-- Retrieve a URL or ID from the current note displayed in Trilium
-- Paste that URL or ID somewhere outside Trilium (for example, in a more advanced task manager)
-- Customize my desktop or other apps so that the note ID can be sent back into a"
-Expensify/App,85122,[$250] Back navigation animation moves in the wrong direction in physical card order flow,https://github.com/Expensify/App/issues/85122,54,External;Weekly;Bug,mallenexpensify;ShridharGoel;yuvrajangadsingh;roryabraham,2026-05-12T22:13:12Z,"If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!
-___
-
-**Version Number:** 9.3.36-6
-**Reproducible in staging?:** Y
-**Reproducible in production?:** Y
-**If this was caught during regression testing, add the test name, ID and link from BrowserStack:**
-**Email or phone of affected tester (no customers):**
-"
-Expensify/App,88706,[Due for payment 2026-05-11] [$250] IOU Report - Members list fails to refresh after adding user from details page,https://github.com/Expensify/App/issues/88706,38,External;Daily;Overdue;Awaiting Payment;Bug,Valforte;mallenexpensify;dukenv0307,2026-05-12T22:10:54Z,"If you haven’t already, check out our [contributing guidelines](https://github.com/Expensify/ReactNativeChat/blob/main/contributingGuides/CONTRIBUTING.md) for onboarding and email contributors@expensify.com to request to join our Slack channel!
-___
-
-**Version Number:** v9.3.62-1
-**Reproducible in staging?:** Yes
-**Reproducible in production?:** Yes 
-**If this was caught during regression testing, add the test name, ID and link from BrowserStack:** https://test-management.browserstack.com/project"
 1712n/dn-institute,277,Contribute to Market Manipulation Wiki,https://github.com/1712n/dn-institute/issues/277,29,💰 bounty;business intelligence;difficulty ⭐;content creation;$500;financial,marina-chibizova,2026-05-12T22:04:35Z,"We invite you to enrich our [Market Health](https://github.com/1712n/dn-institute/tree/main/content/market-health/) wiki by identifying, analyzing, and documenting instances and methods of market manipulation, leveraging data and insights gained from various sources, including our [free API](https://rapidapi.com/DNInstitute/api/crypto-market-health/) that provides basic metrics related to wash trading activities. Comprehensive documentation on each metric is available [here](https://dn.institute"
-relayhop/sn-monetization-runtime,14,[radar] SN open bounty 2026-05-06T16:16,https://github.com/relayhop/sn-monetization-runtime/issues/14,3,radar;sn;bounty,,2026-05-12T22:03:11Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	513	1000	0	0.2	48657	13612	recent@bitcoin|top@bitcoin|recent@math	OPEN_BOUNTY,LOW_COMP,FRESH,SIGNAL	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
-relayhop/sn-monetization-runtime,15,[radar] SN open bounty 2026-05-06T20:54,https://github.com/relayhop/sn-monetization-runtime/issues/15,1,radar;sn;bounty,,2026-05-12T22:03:10Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	2463	1000	2	4.8	48657	13614	recent@bitcoin|top@bitcoin	OPEN_BOUNTY,LOW_COMP,HOT,SIGNAL	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
-illbnm/homelab-stack,504,[BOUNTY $300] SSO Stack — 统一身份认证,https://github.com/illbnm/homelab-stack/issues/504,14,bounty;hard,,2026-05-12T22:03:10Z,"## 赏金金额
-
-**$300 USDT**
-
-Hi @illbnm,
-
-I'm very interested in the SSO bounty (#504) and ready to deliver it.
-
-The detailed proposal with Authentik 2024.8.3 + PostgreSQL 16.4-alpine + Redis 7.4.0-alpine + Traefik ForwardAuth looks excellent. I can implement exactly that:
-
-- Clean `stacks/sso/` folder with full docker-compose
-- `scripts/authentik-setup.sh` (idempotent, --dry-run, safe credential output)
-- Traefik ForwardAuth middleware
-- Ready integrations for Grafana, Gitea, Nextcloud, Outline, Ope"
-relayhop/sn-monetization-runtime,16,[radar] SN open bounty 2026-05-06T21:20,https://github.com/relayhop/sn-monetization-runtime/issues/16,1,radar;sn;bounty,,2026-05-12T22:03:09Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	2463	1000	3	5.3	48657	13614	recent@bitcoin|top@bitcoin|recent@math	OPEN_BOUNTY,LOW_COMP,HOT,SIGNAL	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
-relayhop/sn-monetization-runtime,19,[radar] SN open bounty 2026-05-07T08:03,https://github.com/relayhop/sn-monetization-runtime/issues/19,1,radar;sn;bounty,,2026-05-12T22:03:08Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	2484	1000	9	16.0	48657	13620	recent@bitcoin|top@bitcoin|recent@math	OPEN_BOUNTY,HOT,SELF_POST_OPP	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
-relayhop/sn-monetization-runtime,17,[radar] SN open bounty 2026-05-06T23:37,https://github.com/relayhop/sn-monetization-runtime/issues/17,2,radar;sn;bounty,,2026-05-12T22:03:08Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	2463	1000	5	7.5	48657	13617	recent@bitcoin|top@bitcoin	OPEN_BOUNTY,LOW_COMP,HOT,SIGNAL,SELF_POST_OPP	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
-relayhop/sn-monetization-runtime,20,[radar] SN open bounty 2026-05-07T09:17,https://github.com/relayhop/sn-monetization-runtime/issues/20,1,radar;sn;bounty,,2026-05-12T22:03:07Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	2484	1000	9	17.2	48657	13620	recent@bitcoin|top@bitcoin	OPEN_BOUNTY,HOT,SELF_POST_OPP	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
-relayhop/sn-monetization-runtime,21,[radar] SN open bounty 2026-05-07T12:21,https://github.com/relayhop/sn-monetization-runtime/issues/21,1,radar;sn;bounty,,2026-05-12T22:03:06Z,"New SN OPEN_BOUNTY detected:
-
-```
-1485327	math	2	2484	1000	10	20.3	48657	13620	recent@bitcoin|top@bitcoin|recent@math	OPEN_BOUNTY,HOT,SELF_POST_OPP	Bitcoin Math Puzzle #004: Selfish Mining Pt. 4
-```"
 eunseobchoi/NIPS26_A_CV2024,11,Archestra #3854 bounty artifact: admin audit log implementation report,https://github.com/eunseobchoi/NIPS26_A_CV2024/issues/11,4,bounty,,2026-05-12T22:02:54Z,"## Bounty reference
 
 Target: archestra-ai/archestra#3854
@@ -458,3 +275,130 @@ CC @0hmX @Abse2001
 <img width=""854"" height=""534"" alt=""Image"" src=""https://github.com/user-attachments/assets/90cda586-2e2b-4937-a392-0ed549cd2eca"" />
 
 /bounty $75"
+tscircuit/schematic-trace-solver,34,Merge same-net trace lines that are close together (make at the same Y or same X),https://github.com/tscircuit/schematic-trace-solver/issues/34,77,,,2026-05-12T20:24:04Z,"<img width=""2256"" height=""1856"" alt=""Image"" src=""https://github.com/user-attachments/assets/58f50d14-f3c9-43b2-bdee-1e2e61512441"" />
+
+/bounty $100"
+tscircuit/jlcsearch,92,Add `is_extended_promotional ` column to components (from data source),https://github.com/tscircuit/jlcsearch/issues/92,51,💎 Bounty;$75,,2026-05-12T20:01:44Z,"Some parts are ""extended promotional"" which means they act as basic for a limited time, we should have that information available in a filterable column
+
+/bounty $75"
+tscircuit/fake-algora,1,Bootstrap w/ API for sending payment,https://github.com/tscircuit/fake-algora/issues/1,25,💎 Bounty,,2026-05-12T20:01:37Z,/bounty $10
+archestra-ai/archestra,4468,Add support for Anthropic Workload Identity Federation (keyless auth),https://github.com/archestra-ai/archestra/issues/4468,12,💎 Bounty;$25,Darshan3690,2026-05-12T19:55:00Z,"Anthropic now supports [Workload Identity Federation](https://platform.claude.com/docs/en/manage-claude/workload-identity-federation) (keyless auth). We should add support for it.
+
+**Definition of Done**
+- This is configurable via the necessary `ARCHESTRA_<ENV_VAR>` environment variables. Environment variables are clearly documented in `platform-deployment`
+- Add new sub-section under the existing ""Anthropic"" section in ""supported llm providers"" docs page on how to configure this (link to env va"
+tscircuit/kicad-component-converter,114,Fix the schematic view by also optionally accepting kicad_sym and converting into a schPortArrangement and pinLabels,https://github.com/tscircuit/kicad-component-converter/issues/114,19,💎 Bounty,,2026-05-12T19:53:32Z,/bounty $50
+CapSoftware/Cap,1540,Bounty: Deeplinks support + Raycast Extension,https://github.com/CapSoftware/Cap/issues/1540,111,💎 Bounty;$0,,2026-05-12T19:20:24Z,"Cap needs a Raycast extension. To enable this, deeplinks need to be added to the app for recording, stop recording, pausing (+ resuming), switching microphone, switching camera etc.
+
+Then once deeplinks have been tested, the Raycast extension can be built.
+
+We already support deeplinks for some stuff, e.g. auth etc. This just needs to be extended.
+
+Added a $200 bounty for deeplinks support + Raycast extension built."
+tscircuit/tscircuit-autorouter,66,Implement trace thickness as a parameter,https://github.com/tscircuit/tscircuit-autorouter/issues/66,36,💎 Bounty,,2026-05-12T19:13:18Z,"You must have a major contribution to this repo prior to attempting this.
+
+I think this issue is really hard and the bounty is likely to increase over time. There are a lot of implications of trace thickness for high density routing and probability calculation etc.
+
+I'm not even really sure anyone should try to attempt to get trace thickness to go in a single PR, it probably will take a lot of effort.
+
+We mainly only care about trace thickness multiples (which might help with the implementation)"
+gyroflow/gyroflow,150,Support lensfun database,https://github.com/gyroflow/gyroflow/issues/150,27,enhancement;💎 Bounty,,2026-05-12T19:11:34Z,https://lensfun.github.io/
+gyroflow/gyroflow,45,Optical only stabilization,https://github.com/gyroflow/gyroflow/issues/45,27,enhancement;💎 Bounty,,2026-05-12T19:11:31Z,"We can try to use just the optical flow to do the stabilization, without using gyro data"
+gyroflow/gyroflow,742,Refactor lens profile handling,https://github.com/gyroflow/gyroflow/issues/742,44,enhancement;💎 Bounty,,2026-05-12T19:11:28Z,"- [ ] Create a list of known camera brands, models and lenses. To collect the data use the current lens profile database and the lensfun database. Store it as json in `resources` and have it auto-update like lens profiles (also should be in [git](https://github.com/gyroflow/lens_profiles/))
+- [ ] Create a list of compatible cameras, lens mounts and sensor sizes, also include crop factor
+- [ ] Calibrator should enforce to select correct camera from the list, with the ability to select ""Other"" a"
+gyroflow/gyroflow,384,Dynamic zooming zooms in too much for lens correction strengths other than 0 and 100%,https://github.com/gyroflow/gyroflow/issues/384,9,bug;💎 Bounty,,2026-05-12T19:01:35Z,"### Is there an existing issue for this?
+
+- [X] I have searched the existing issues
+
+### Have you tried the latest build?
+
+- [X] I have tried the latest build
+
+### Gyroflow version
+
+72b8eb6a64d80292d1006277c4d4212865fca072
+
+### What operating system are you using?
+
+Windows 10
+
+### What GPU are you using?
+
+_No response_
+
+### What happened?
+
+When selecting lens correction strengths other than 0 and 100% dynamic and fixed zooming zooms in too much. Take for example this clip without motion from the"
+arakoodev/EdgeChains,290,BOUNTY: integrate AWS Comprehend as a utility to redact data,https://github.com/arakoodev/EdgeChains/issues/290,35,💎 Bounty;$50,,2026-05-12T18:43:46Z,"this bounty is for the javascript sdk only - https://github.com/arakoodev/EdgeChains/tree/ts/JS/edgechains
+
+links:
+- https://aws.amazon.com/blogs/machine-learning/how-to-redact-pii-data-in-conversation-transcripts/
+- https://aws.amazon.com/blogs/machine-learning/detecting-and-redacting-pii-using-amazon-comprehend/
+
+this bounty will marked complete when:
+- add new classes that can be **chained** with existing Endpoint classes (as observables) to redact sensitive information in prompts.
+- "
+spaceandtimefdn/sxt-proof-of-sql,183,Add nullable column support,https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/183,33,enhancement;💎 Bounty,,2026-05-12T18:28:24Z,"# Background and Motivation
+Currently, we have not implemented support for columns with null values. This is a very useful and ubiquitous primitive for any database engine.
+
+# Changes Required
+- [ ] Support adding a flag (or some other mechanism) to the columns types in order to support nullable columns. Logically, this is the same as adding a new column datatype for each existing datatype.
+- [ ] Support existing operations on nullable columns. (e.g. we should be able to add a nullable bigint to"
+tscircuit/circuitjson.com,79,"Update dependencies (runframe, circuit-json etc.) to latest version and confirm vercel deployment works",https://github.com/tscircuit/circuitjson.com/issues/79,29,💎 Bounty;💰 Rewarded;$50,,2026-05-12T17:44:32Z,"/bounty $50
+
+I tried to do this in #78 but it took too long to debug why vercel wasn't working
+
+Remove the lockfile and use @tscircuit/plop to create a bunfig.toml with lockfile saving disabled"
+tscircuit/pver,1,Figure out a way to commit to protected branches,https://github.com/tscircuit/pver/issues/1,15,💎 Bounty,,2026-05-12T17:23:20Z,"You'll need to install a custom version of pver to one of your own repos, make your main branch protected, then figure out a way to allow pver to be able to commit to the protected branch.
+
+/bounty $20"
+Fahad-Dezloper/Crowdify,27,Multiple Admin Support,https://github.com/Fahad-Dezloper/Crowdify/issues/27,15,💎 Bounty;$50,,2026-05-12T17:03:33Z,
+rohitdash08/FinMind,124,Login anomaly detection & suspicious activity alerts,https://github.com/rohitdash08/FinMind/issues/124,34,feature;bounty;💎 Bounty;$50,Pranjal6955,2026-05-12T17:03:31Z,"Detect unusual login behavior and alert users.
+
+## Acceptance Criteria
+- Production ready implementation
+- Includes tests
+- Documentation updated"
+aqualinkorg/aqualink-app,1162,See the map/data for a date in the past,https://github.com/aqualinkorg/aqualink-app/issues/1162,24,💎 Bounty;$50,,2026-05-12T17:03:26Z,"It would be interesting to be able to see the world / Aqualink map and site data at a set date that is not today but in the past.
+For example, to look back to at coral bleaching events in Australia - https://www.bbc.com/news/articles/cvg3pp52m65o
+
+Let's investigate how hard it would be to adapt the Map component first and then the sites page,
+
+
+
+
+
+"
+potpie-ai/potpie,222,Support multiple LLMs through Litellm,https://github.com/potpie-ai/potpie/issues/222,17,💎 Bounty,dhirenmathur,2026-05-12T16:28:23Z,"# Replace LangChain Chat Clients with LiteLLM
+
+## Objective
+Replace all LangChain chat client implementations with LiteLLM while maintaining existing functionality.
+APIs to manage user's LLM choice and keys and ensure that right LLM is selected during processing and agent execution.
+
+## Requirements
+- Keep existing provider service pattern intact
+- Support all current LLMs through LiteLLM
+- Maintain inference and agent interaction functionality
+- Remove CrewAI specialized handling (Thi"
+terrastruct/d2,1578,`shape: cycle`,https://github.com/terrastruct/d2/issues/1578,15,💎 Bounty,loop-index,2026-05-12T16:28:20Z,"see: https://github.com/terrastruct/d2/discussions/1330
+
+Still undecided about name. I may want to reserve ""radial"" for 1 thing in center and N connected. "
+tscircuit/circuit-json-to-step,6,Determine why rectangles are missing in output,https://github.com/tscircuit/circuit-json-to-step/issues/6,15,,,2026-05-12T16:27:39Z,"You have completed the issue when the resistor blocks appear
+
+## Received
+
+<img width=""2666"" height=""1480"" alt=""Image"" src=""https://github.com/user-attachments/assets/49f77954-6832-4a79-8f66-2e988af5d626"" />
+
+## Actual
+
+<img width=""750"" height=""620"" alt=""Image"" src=""https://github.com/user-attachments/assets/a0a68fd0-c46d-4ac8-a10f-7efee6169eca"" />
+
+/bounty $50
+
+"
+tscircuit/schematic-trace-solver,29,New Phase To combine same-net trace segments that are close together,https://github.com/tscircuit/schematic-trace-solver/issues/29,73,💎 Bounty;$100,,2026-05-12T16:27:08Z,"I think it's best to implement as a new pipeline phase to split up the logic
+
+/bounty $100
+
+<img width=""2016"" height=""782"" alt=""Image"" src=""https://github.com/user-attachments/assets/0981129c-b6b2-41c3-8b46-2d52c99cb1d8"" />"
