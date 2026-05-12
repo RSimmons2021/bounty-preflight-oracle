@@ -1,0 +1,28 @@
+{
+  "scanned_at": "2026-05-12T22:45:14.863712+00:00",
+  "pr": {
+    "repo": "tailcallhq/graphql-conf-2024",
+    "number": 6,
+    "title": "feat: generate reviewable slide PDFs from static docs in CI",
+    "url": "https://github.com/tailcallhq/graphql-conf-2024/pull/6",
+    "state": "OPEN",
+    "is_draft": false,
+    "author": "reguorier",
+    "head": "codex/pdf-workflow",
+    "base": "main",
+    "updated_at": "2026-04-11T20:43:48Z",
+    "merge_state": "CLEAN",
+    "review_decision": ""
+  },
+  "score": 3,
+  "verdict": "watch",
+  "failed_checks": [],
+  "pending_checks": [],
+  "passed_check_count": 0,
+  "positives": [
+    "PR appears stale: last updated 31 day(s) ago.",
+    "PR is mergeable by GitHub merge-state check."
+  ],
+  "warnings": [],
+  "recommended_next_action": "Monitor for 48 hours or wait for maintainer feedback before spending implementation time."
+}

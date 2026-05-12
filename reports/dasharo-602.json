@@ -1,0 +1,72 @@
+{
+  "scanned_at": "2026-05-12T22:43:53.236725+00:00",
+  "issue": {
+    "repo": "Dasharo/open-source-firmware-validation",
+    "number": 602,
+    "title": "Keyword documentation generation doesn't include \"*.py\" files",
+    "url": "https://github.com/Dasharo/open-source-firmware-validation/issues/602",
+    "state": "OPEN",
+    "labels": [
+      "enhancement",
+      "bounty-warmup"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T20:24:45Z"
+  },
+  "repo": {
+    "createdAt": "2022-10-20T09:07:04Z",
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "OSFV infrastructure with automated tests and scripts for managing test results",
+    "forkCount": 11,
+    "isArchived": false,
+    "isFork": false,
+    "licenseInfo": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "nameWithOwner": "Dasharo/open-source-firmware-validation",
+    "stargazerCount": 23,
+    "updatedAt": "2026-03-23T08:58:52Z",
+    "url": "https://github.com/Dasharo/open-source-firmware-validation"
+  },
+  "platform": "GitHub/manual",
+  "payout_friction": "unclear",
+  "score": 0,
+  "verdict": "skip",
+  "estimated_codex_hours": "3-8",
+  "open_pr_collisions": [
+    {
+      "number": 1266,
+      "title": "Include Python libraries in keyword docs",
+      "url": "https://github.com/Dasharo/open-source-firmware-validation/pull/1266",
+      "updated_at": "2026-05-12T20:24:32Z",
+      "state": "open",
+      "author": "suhail-ak-2"
+    },
+    {
+      "number": 1264,
+      "title": "docs: include Python library keywords in generated libdoc output",
+      "url": "https://github.com/Dasharo/open-source-firmware-validation/pull/1264",
+      "updated_at": "2026-05-11T05:29:16Z",
+      "state": "open",
+      "author": "KingParmenides"
+    }
+  ],
+  "attempt_count": 1,
+  "linked_pr_mentions": [
+    "github.com/Dasharo/open-source-firmware-validation/pull/1266"
+  ],
+  "positives": [
+    "No assignee on the issue.",
+    "Low attempt count.",
+    "Low comment count."
+  ],
+  "warnings": [
+    "2 open PR collision(s) found.",
+    "Payout path needs confirmation: unclear."
+  ],
+  "recommended_next_action": "Skip direct attempt; inspect stale/failing PRs and look for a rescue opportunity instead."
+}

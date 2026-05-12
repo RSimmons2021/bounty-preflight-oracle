@@ -1,0 +1,86 @@
+{
+  "scanned_at": "2026-05-12T22:43:53.172991+00:00",
+  "issue": {
+    "repo": "tailcallhq/graphql-conf-2024",
+    "number": 1,
+    "title": "Auto generate PDF for the slides",
+    "url": "https://github.com/tailcallhq/graphql-conf-2024/issues/1",
+    "state": "OPEN",
+    "labels": [
+      "💎 Bounty"
+    ],
+    "assignees": [],
+    "updated_at": "2026-04-11T20:43:48Z"
+  },
+  "repo": {
+    "createdAt": "2024-09-05T04:10:24Z",
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "Presentation in Remark for GraphQL Conf 2024",
+    "forkCount": 6,
+    "isArchived": false,
+    "isFork": false,
+    "licenseInfo": null,
+    "nameWithOwner": "tailcallhq/graphql-conf-2024",
+    "stargazerCount": 0,
+    "updatedAt": "2025-03-15T07:02:53Z",
+    "url": "https://github.com/tailcallhq/graphql-conf-2024"
+  },
+  "platform": "Algora",
+  "payout_friction": "clear",
+  "score": -1,
+  "verdict": "skip",
+  "estimated_codex_hours": "3-8",
+  "open_pr_collisions": [
+    {
+      "number": 7,
+      "title": "Add slides PDF generation workflow",
+      "url": "https://github.com/tailcallhq/graphql-conf-2024/pull/7",
+      "updated_at": "2026-05-11T08:30:04Z",
+      "state": "open",
+      "author": "kaziiza"
+    },
+    {
+      "number": 6,
+      "title": "feat: generate reviewable slide PDFs from static docs in CI",
+      "url": "https://github.com/tailcallhq/graphql-conf-2024/pull/6",
+      "updated_at": "2026-04-11T20:43:48Z",
+      "state": "open",
+      "author": "reguorier"
+    },
+    {
+      "number": 2,
+      "title": "chore: autogen pdf from md",
+      "url": "https://github.com/tailcallhq/graphql-conf-2024/pull/2",
+      "updated_at": "2024-09-15T20:52:18Z",
+      "state": "open",
+      "author": "ssddOnTop"
+    },
+    {
+      "number": 3,
+      "title": "ci: slides pdf integration",
+      "url": "https://github.com/tailcallhq/graphql-conf-2024/pull/3",
+      "updated_at": "2024-09-16T14:31:57Z",
+      "state": "open",
+      "author": "mehulmathur16"
+    }
+  ],
+  "attempt_count": 3,
+  "linked_pr_mentions": [
+    "#1",
+    "#3",
+    "#6",
+    "github.com/tailcallhq/graphql-conf-2024/pull/3",
+    "github.com/tailcallhq/graphql-conf-2024/pull/6"
+  ],
+  "positives": [
+    "No assignee on the issue.",
+    "Payout path appears clear via Algora."
+  ],
+  "warnings": [
+    "4 open PR collision(s) found.",
+    "3 attempt-like comments detected."
+  ],
+  "recommended_next_action": "Skip direct attempt; inspect stale/failing PRs and look for a rescue opportunity instead."
+}

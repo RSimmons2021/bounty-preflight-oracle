@@ -1,0 +1,91 @@
+{
+  "scanned_at": "2026-05-12T22:43:38.193791+00:00",
+  "issue": {
+    "repo": "openstreetmap-ng/openstreetmap-ng",
+    "number": 90,
+    "title": "Direct tag edit",
+    "url": "https://github.com/openstreetmap-ng/openstreetmap-ng/issues/90",
+    "state": "OPEN",
+    "labels": [
+      "feature",
+      "P2",
+      "size M",
+      "$20"
+    ],
+    "assignees": [],
+    "updated_at": "2026-05-12T19:34:42Z"
+  },
+  "repo": {
+    "createdAt": "2023-11-04T01:12:13Z",
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "🗺️ The Next Generation of OpenStreetMap — in Python!",
+    "forkCount": 52,
+    "isArchived": false,
+    "isFork": false,
+    "licenseInfo": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "nickname": "GNU AGPLv3"
+    },
+    "nameWithOwner": "openstreetmap-ng/openstreetmap-ng",
+    "stargazerCount": 246,
+    "updatedAt": "2026-05-12T17:02:27Z",
+    "url": "https://github.com/openstreetmap-ng/openstreetmap-ng"
+  },
+  "platform": "GitHub/manual",
+  "payout_friction": "unclear",
+  "score": -1,
+  "verdict": "skip",
+  "estimated_codex_hours": "3-8",
+  "open_pr_collisions": [
+    {
+      "number": 233,
+      "title": "[codex] Add direct tag edit frontend scaffold",
+      "url": "https://github.com/openstreetmap-ng/openstreetmap-ng/pull/233",
+      "updated_at": "2026-05-11T07:25:07Z",
+      "state": "open",
+      "author": "nickita-khylkouski"
+    },
+    {
+      "number": 247,
+      "title": "Add direct tag edit form",
+      "url": "https://github.com/openstreetmap-ng/openstreetmap-ng/pull/247",
+      "updated_at": "2026-05-12T03:46:23Z",
+      "state": "open",
+      "author": "nexicturbo"
+    },
+    {
+      "number": 226,
+      "title": "Add frontend direct tag editor",
+      "url": "https://github.com/openstreetmap-ng/openstreetmap-ng/pull/226",
+      "updated_at": "2026-05-09T10:56:34Z",
+      "state": "open",
+      "author": "adamsardo"
+    },
+    {
+      "number": 256,
+      "title": "Add direct tag edit frontend",
+      "url": "https://github.com/openstreetmap-ng/openstreetmap-ng/pull/256",
+      "updated_at": "2026-05-12T19:56:46Z",
+      "state": "open",
+      "author": "RSimmons2021"
+    }
+  ],
+  "attempt_count": 1,
+  "linked_pr_mentions": [
+    "#24",
+    "#90",
+    "#94"
+  ],
+  "positives": [
+    "No assignee on the issue.",
+    "Low attempt count."
+  ],
+  "warnings": [
+    "4 open PR collision(s) found.",
+    "Payout path needs confirmation: unclear."
+  ],
+  "recommended_next_action": "Skip direct attempt; inspect stale/failing PRs and look for a rescue opportunity instead."
+}

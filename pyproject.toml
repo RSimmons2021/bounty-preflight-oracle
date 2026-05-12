@@ -1,0 +1,9 @@
+[project]
+name = "bounty-preflight-oracle"
+version = "0.1.0"
+description = "GitHub bounty preflight reports for coding agents"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+bounty-oracle = "bounty_oracle.cli:main"
